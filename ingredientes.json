@@ -1,766 +1,45 @@
 [
   {
-    "n": "Bistec de ternera",
-    "p": 21,
-    "g": 4.7,
+    "n": "Aceite de aguacate",
+    "p": 0,
+    "g": 100,
     "c": 0,
-    "t": "Carnicería (Frescos)"
+    "t": "Aceites"
   },
   {
-    "n": "Carne picada de ternera (10 % grasa)",
-    "p": 20,
-    "g": 10,
+    "n": "Aceite de coco",
+    "p": 0,
+    "g": 99.1,
     "c": 0,
-    "t": "Carnicería (Frescos)"
+    "t": "Aceites"
   },
   {
-    "n": "Carne picada de ternera (15 % grasa)",
-    "p": 18.6,
-    "g": 15,
+    "n": "Aceite de linaza",
+    "p": 0,
+    "g": 100,
     "c": 0,
-    "t": "Carnicería (Frescos)"
+    "t": "Aceites"
   },
   {
-    "n": "Carne picada de ternera (20 % grasa)",
-    "p": 17.2,
-    "g": 20,
+    "n": "Aceite de oliva virgen extra (AOVE)",
+    "p": 0,
+    "g": 100,
     "c": 0,
-    "t": "Carnicería (Frescos)"
+    "t": "Aceites"
   },
   {
-    "n": "Carne picada de ternera (5 % grasa)",
-    "p": 21.4,
-    "g": 5,
+    "n": "Aceite de sésamo",
+    "p": 0,
+    "g": 100,
     "c": 0,
-    "t": "Carnicería (Frescos)"
+    "t": "Aceites"
   },
   {
-    "n": "Carpaccio de ternera (solomillo crudo)",
-    "p": 22,
-    "g": 5.5,
+    "n": "Aceite MCT",
+    "p": 0,
+    "g": 100,
     "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Chuleta de cerdo (con hueso)",
-    "p": 19.3,
-    "g": 11.6,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Chuleta de costilla de cordero",
-    "p": 17.1,
-    "g": 14.8,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Conejo (composición mixta)",
-    "p": 20.1,
-    "g": 5.6,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Contramuslo de pollo con piel",
-    "p": 16.5,
-    "g": 15.5,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Cordero picado",
-    "p": 16.6,
-    "g": 23.4,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Costilla de cerdo",
-    "p": 17.9,
-    "g": 15.5,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Entrecot de ternera (ribeye)",
-    "p": 18.2,
-    "g": 14.3,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Hígado de pollo",
-    "p": 16.9,
-    "g": 4.8,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Hígado de ternera",
-    "p": 20.4,
-    "g": 3.6,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Lomo de cerdo",
-    "p": 21.4,
-    "g": 5.7,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Magret de pato (con piel y grasa)",
-    "p": 19,
-    "g": 28.4,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Muslo de pavo",
-    "p": 20.1,
-    "g": 4.5,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Muslo de pollo sin piel",
-    "p": 19.2,
-    "g": 4.8,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Osobuco de ternera (con hueso)",
-    "p": 19.4,
-    "g": 7.6,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Pechuga de pato (solo carne)",
-    "p": 19.9,
-    "g": 4.3,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Pechuga de pavo",
-    "p": 23.7,
-    "g": 0.7,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Pechuga de pollo sin piel",
-    "p": 22.5,
-    "g": 2.6,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Pierna de cordero",
-    "p": 19.7,
-    "g": 8.8,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Secreto ibérico",
-    "p": 18,
-    "g": 23,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Solomillo de ternera",
-    "p": 22,
-    "g": 5.5,
-    "c": 0,
-    "t": "Carnicería (Frescos)"
-  },
-  {
-    "n": "Bacón (beicon)",
-    "p": 13.7,
-    "g": 39.7,
-    "c": 0.7,
-    "t": "Charcutería (Curados y procesados)"
-  },
-  {
-    "n": "Chorizo español",
-    "p": 24.1,
-    "g": 38.3,
-    "c": 1.9,
-    "t": "Charcutería (Curados y procesados)"
-  },
-  {
-    "n": "Jamón cocido (bajo en azúcar)",
-    "p": 17,
-    "g": 4.8,
-    "c": 1.8,
-    "t": "Charcutería (Curados y procesados)"
-  },
-  {
-    "n": "Jamón ibérico",
-    "p": 28,
-    "g": 20,
-    "c": 0.1,
-    "t": "Charcutería (Curados y procesados)"
-  },
-  {
-    "n": "Jamón serrano",
-    "p": 31,
-    "g": 12.5,
-    "c": 0.2,
-    "t": "Charcutería (Curados y procesados)"
-  },
-  {
-    "n": "Salchicha de pollo",
-    "p": 14.5,
-    "g": 16.7,
-    "c": 1.5,
-    "t": "Charcutería (Curados y procesados)"
-  },
-  {
-    "n": "Salchicha fresca de cerdo",
-    "p": 13.5,
-    "g": 26.8,
-    "c": 0.6,
-    "t": "Charcutería (Curados y procesados)"
-  },
-  {
-    "n": "Salchicha tipo bratwurst",
-    "p": 13.7,
-    "g": 29.2,
-    "c": 2.9,
-    "t": "Charcutería (Curados y procesados)"
-  },
-  {
-    "n": "Salchicha tipo Frankfurt",
-    "p": 11.2,
-    "g": 23,
-    "c": 1.6,
-    "t": "Charcutería (Curados y procesados)"
-  },
-  {
-    "n": "Salchichón",
-    "p": 25.8,
-    "g": 36.6,
-    "c": 1.2,
-    "t": "Charcutería (Curados y procesados)"
-  },
-  {
-    "n": "Salmón ahumado",
-    "p": 18.3,
-    "g": 4.3,
-    "c": 0,
-    "t": "Charcutería (Curados y procesados)"
-  },
-  {
-    "n": "Clara de huevo",
-    "p": 10.9,
-    "g": 0.2,
-    "c": 0.7,
-    "t": "Otros (Avícola)"
-  },
-  {
-    "n": "Huevo entero",
-    "p": 12.6,
-    "g": 9.5,
-    "c": 0.7,
-    "t": "Otros (Avícola)"
-  },
-  {
-    "n": "Yema de huevo",
-    "p": 15.9,
-    "g": 26.5,
-    "c": 3.6,
-    "t": "Otros (Avícola)"
-  },
-  {
-    "n": "Atún al natural (escurrido)",
-    "p": 25.5,
-    "g": 0.8,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Atún en aceite de oliva (escurrido)",
-    "p": 29.1,
-    "g": 8.2,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Atún fresco",
-    "p": 28.2,
-    "g": 1.2,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Boquerones en vinagre",
-    "p": 18.5,
-    "g": 6.8,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Caballa",
-    "p": 18.6,
-    "g": 13.9,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Dorada",
-    "p": 19.7,
-    "g": 1.7,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Lomo de bacalao",
-    "p": 17.8,
-    "g": 0.7,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Lomo de merluza",
-    "p": 17.9,
-    "g": 1.3,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Lubina",
-    "p": 18.4,
-    "g": 2,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Pez espada",
-    "p": 19.7,
-    "g": 6.7,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Salmón del Atlántico",
-    "p": 20.4,
-    "g": 13.4,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Sardinas en aceite (escurridas)",
-    "p": 24.6,
-    "g": 11.5,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Sardinas frescas (crudo)",
-    "p": 24.6,
-    "g": 11.5,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Trucha",
-    "p": 20.5,
-    "g": 3.5,
-    "c": 0,
-    "t": "Pescados"
-  },
-  {
-    "n": "Almejas",
-    "p": 12.8,
-    "g": 1,
-    "c": 2.6,
-    "t": "Mariscos"
-  },
-  {
-    "n": "Calamares",
-    "p": 15.6,
-    "g": 1.4,
-    "c": 3.1,
-    "t": "Mariscos"
-  },
-  {
-    "n": "Camarones (pelados y cocidos)",
-    "p": 20.9,
-    "g": 1.1,
-    "c": 0.2,
-    "t": "Mariscos"
-  },
-  {
-    "n": "Camarones (pelados y crudos)",
-    "p": 18,
-    "g": 0.5,
-    "c": 0,
-    "t": "Mariscos"
-  },
-  {
-    "n": "Gambas (peladas, cocidas)",
-    "p": 20.9,
-    "g": 1.1,
-    "c": 0.2,
-    "t": "Mariscos"
-  },
-  {
-    "n": "Gambas (peladas, crudas)",
-    "p": 18,
-    "g": 0.5,
-    "c": 0,
-    "t": "Mariscos"
-  },
-  {
-    "n": "Gambones (pelados, cocidos)",
-    "p": 20.9,
-    "g": 1.1,
-    "c": 0.2,
-    "t": "Mariscos"
-  },
-  {
-    "n": "Gambones (pelados, crudos)",
-    "p": 20.1,
-    "g": 0.5,
-    "c": 0,
-    "t": "Mariscos"
-  },
-  {
-    "n": "Langostinos (pelados, cocidos)",
-    "p": 20.9,
-    "g": 1.1,
-    "c": 0.2,
-    "t": "Mariscos"
-  },
-  {
-    "n": "Langostinos (pelados, crudos)",
-    "p": 20.1,
-    "g": 0.5,
-    "c": 0,
-    "t": "Mariscos"
-  },
-  {
-    "n": "Mejillones",
-    "p": 11.9,
-    "g": 2.2,
-    "c": 3.7,
-    "t": "Mariscos"
-  },
-  {
-    "n": "Pulpo cocido",
-    "p": 29.8,
-    "g": 2.1,
-    "c": 4.4,
-    "t": "Mariscos"
-  },
-  {
-    "n": "Sepia",
-    "p": 16.2,
-    "g": 0.7,
-    "c": 0.8,
-    "t": "Mariscos"
-  },
-  {
-    "n": "Tempeh",
-    "p": 20.3,
-    "g": 10.8,
-    "c": 4.6,
-    "t": "Proteína vegetal"
-  },
-  {
-    "n": "Acelgas",
-    "p": 1.8,
-    "g": 0.2,
-    "c": 2.1,
-    "t": "Verduras"
-  },
-  {
-    "n": "Brócoli",
-    "p": 2.8,
-    "g": 0.4,
-    "c": 4,
-    "t": "Verduras"
-  },
-  {
-    "n": "Canónigos",
-    "p": 2,
-    "g": 0.4,
-    "c": 2.2,
-    "t": "Verduras"
-  },
-  {
-    "n": "Col (repollo)",
-    "p": 1.3,
-    "g": 0.1,
-    "c": 3.3,
-    "t": "Verduras"
-  },
-  {
-    "n": "Col rizada (kale)",
-    "p": 2.9,
-    "g": 0.6,
-    "c": 4.4,
-    "t": "Verduras"
-  },
-  {
-    "n": "Coles de Bruselas",
-    "p": 3.4,
-    "g": 0.3,
-    "c": 5.2,
-    "t": "Verduras"
-  },
-  {
-    "n": "Coliflor",
-    "p": 1.9,
-    "g": 0.3,
-    "c": 3,
-    "t": "Verduras"
-  },
-  {
-    "n": "Espinacas frescas",
-    "p": 2.9,
-    "g": 0.4,
-    "c": 1.4,
-    "t": "Verduras"
-  },
-  {
-    "n": "Espárragos trigueros (verdes)",
-    "p": 2.2,
-    "g": 0.1,
-    "c": 1.8,
-    "t": "Verduras"
-  },
-  {
-    "n": "Judías verdes",
-    "p": 1.8,
-    "g": 0.2,
-    "c": 3.3,
-    "t": "Verduras"
-  },
-  {
-    "n": "Lechuga romana",
-    "p": 1.2,
-    "g": 0.3,
-    "c": 1.2,
-    "t": "Verduras"
-  },
-  {
-    "n": "Mezcla de hojas verdes",
-    "p": 1.6,
-    "g": 0.2,
-    "c": 1.5,
-    "t": "Verduras"
-  },
-  {
-    "n": "Rúcula",
-    "p": 2.6,
-    "g": 0.7,
-    "c": 2.1,
-    "t": "Verduras"
-  },
-  {
-    "n": "Ajo",
-    "p": 6.4,
-    "g": 0.5,
-    "c": 31.1,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Alcachofa",
-    "p": 3.3,
-    "g": 0.2,
-    "c": 5.1,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Apio",
-    "p": 0.7,
-    "g": 0.2,
-    "c": 1.4,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Berenjena",
-    "p": 1,
-    "g": 0.2,
-    "c": 2.3,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Calabacín",
-    "p": 1.2,
-    "g": 0.3,
-    "c": 2.1,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Cebolla",
-    "p": 1.1,
-    "g": 0.1,
-    "c": 7.6,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Cebolla morada",
-    "p": 1.1,
-    "g": 0.1,
-    "c": 7.3,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Pepinillos (encurtidos)",
-    "p": 0.3,
-    "g": 0.2,
-    "c": 1.1,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Pepino fresco",
-    "p": 0.7,
-    "g": 0.1,
-    "c": 3.1,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Pimiento amarillo",
-    "p": 1,
-    "g": 0.2,
-    "c": 5.4,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Pimiento rojo",
-    "p": 1,
-    "g": 0.3,
-    "c": 4.2,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Pimiento verde",
-    "p": 0.9,
-    "g": 0.2,
-    "c": 2.9,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Tomate cereza (cherry)",
-    "p": 0.9,
-    "g": 0.2,
-    "c": 2.7,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Tomate maduro",
-    "p": 0.9,
-    "g": 0.2,
-    "c": 2.7,
-    "t": "Hortalizas"
-  },
-  {
-    "n": "Champiñones blancos",
-    "p": 3.1,
-    "g": 0.3,
-    "c": 2.3,
-    "t": "Setas"
-  },
-  {
-    "n": "Champiñones Portobello",
-    "p": 2.1,
-    "g": 0.4,
-    "c": 2.6,
-    "t": "Setas"
-  },
-  {
-    "n": "Setas shiitake",
-    "p": 2.2,
-    "g": 0.5,
-    "c": 4.3,
-    "t": "Setas"
-  },
-  {
-    "n": "Aguacate",
-    "p": 2,
-    "g": 14.7,
-    "c": 1.8,
-    "t": "Frutas frescas"
-  },
-  {
-    "n": "Arándanos azules",
-    "p": 0.7,
-    "g": 0.3,
-    "c": 12.1,
-    "t": "Frutas frescas"
-  },
-  {
-    "n": "Frambuesas",
-    "p": 1.2,
-    "g": 0.7,
-    "c": 5.4,
-    "t": "Frutas frescas"
-  },
-  {
-    "n": "Fresas",
-    "p": 0.7,
-    "g": 0.3,
-    "c": 5.7,
-    "t": "Frutas frescas"
-  },
-  {
-    "n": "Moras",
-    "p": 1.4,
-    "g": 0.5,
-    "c": 4.3,
-    "t": "Frutas frescas"
-  },
-  {
-    "n": "Lima (zumo)",
-    "p": 0.4,
-    "g": 0.1,
-    "c": 8.4,
-    "t": "Cítricos y zumos"
-  },
-  {
-    "n": "Limón (ralladura)",
-    "p": 1.5,
-    "g": 0.3,
-    "c": 5.2,
-    "t": "Cítricos y zumos"
-  },
-  {
-    "n": "Limón (zumo natural)",
-    "p": 0.4,
-    "g": 0.2,
-    "c": 6.9,
-    "t": "Cítricos y zumos"
-  },
-  {
-    "n": "Coco rallado deshidratado sin azúcar",
-    "p": 6.9,
-    "g": 64.5,
-    "c": 7.3,
-    "t": "Coco (variantes)"
-  },
-  {
-    "n": "Coco rallado fresco (húmedo)",
-    "p": 3.3,
-    "g": 33.5,
-    "c": 6.2,
-    "t": "Coco (variantes)"
-  },
-  {
-    "n": "Coco seco (trozos)",
-    "p": 6.9,
-    "g": 64.5,
-    "c": 7.3,
-    "t": "Coco (variantes)"
+    "t": "Aceites"
   },
   {
     "n": "Aceitunas Kalamata",
@@ -805,6 +84,685 @@
     "t": "Aceitunas (variantes)"
   },
   {
+    "n": "Acelgas",
+    "p": 1.8,
+    "g": 0.2,
+    "c": 2.1,
+    "t": "Verduras"
+  },
+  {
+    "n": "Acelgas (crudas)",
+    "g": 0.2,
+    "p": 1.8,
+    "c": 1.83,
+    "t": "Verduras"
+  },
+  {
+    "n": "Aguacate",
+    "p": 2,
+    "g": 14.7,
+    "c": 1.8,
+    "t": "Frutas frescas"
+  },
+  {
+    "n": "Aislado de proteína de suero (whey)",
+    "p": 85.7,
+    "g": 1,
+    "c": 3.6,
+    "t": "Suplemento proteico"
+  },
+  {
+    "n": "Ajo",
+    "p": 6.4,
+    "g": 0.5,
+    "c": 31.1,
+    "t": "Hortalizas"
+  },
+  {
+    "n": "Ajo en polvo",
+    "p": 16.6,
+    "g": 0.7,
+    "c": 65,
+    "t": "Especia"
+  },
+  {
+    "n": "Alcachofa",
+    "p": 3.3,
+    "g": 0.2,
+    "c": 5.1,
+    "t": "Hortalizas"
+  },
+  {
+    "n": "Almejas",
+    "p": 12.8,
+    "g": 1,
+    "c": 2.6,
+    "t": "Mariscos"
+  },
+  {
+    "n": "Almendras enteras",
+    "p": 21.2,
+    "g": 49.9,
+    "c": 9.1,
+    "t": "Frutos secos"
+  },
+  {
+    "n": "Almendras laminadas",
+    "p": 21.2,
+    "g": 49.9,
+    "c": 9.1,
+    "t": "Frutos secos"
+  },
+  {
+    "n": "Apio",
+    "p": 0.7,
+    "g": 0.2,
+    "c": 1.4,
+    "t": "Hortalizas"
+  },
+  {
+    "n": "Arándanos azules",
+    "p": 0.7,
+    "g": 0.3,
+    "c": 12.1,
+    "t": "Frutas frescas"
+  },
+  {
+    "n": "Atún al natural (escurrido)",
+    "p": 25.5,
+    "g": 0.8,
+    "c": 0,
+    "t": "Pescados"
+  },
+  {
+    "n": "Atún en aceite de oliva (escurrido)",
+    "p": 29.1,
+    "g": 8.2,
+    "c": 0,
+    "t": "Pescados"
+  },
+  {
+    "n": "Atún fresco",
+    "p": 28.2,
+    "g": 1.2,
+    "c": 0,
+    "t": "Pescados"
+  },
+  {
+    "n": "Bacón (beicon)",
+    "p": 13.7,
+    "g": 39.7,
+    "c": 0.7,
+    "t": "Charcutería (Curados y procesados)"
+  },
+  {
+    "n": "Berenjena",
+    "p": 1,
+    "g": 0.2,
+    "c": 2.3,
+    "t": "Hortalizas"
+  },
+  {
+    "n": "Berros (crudos)",
+    "g": 0.1,
+    "p": 2.3,
+    "c": 0.79,
+    "t": "Verduras"
+  },
+  {
+    "n": "Bistec de ternera",
+    "p": 21,
+    "g": 4.7,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Boquerones en vinagre",
+    "p": 18.5,
+    "g": 6.8,
+    "c": 0,
+    "t": "Pescados"
+  },
+  {
+    "n": "Brócoli",
+    "p": 2.8,
+    "g": 0.4,
+    "c": 4,
+    "t": "Verduras"
+  },
+  {
+    "n": "Brócoli (crudo)",
+    "g": 0.37,
+    "p": 2.82,
+    "c": 4.04,
+    "t": "Verduras"
+  },
+  {
+    "n": "Caballa",
+    "p": 18.6,
+    "g": 13.9,
+    "c": 0,
+    "t": "Pescados"
+  },
+  {
+    "n": "Cacahuetes (sin cáscara)",
+    "p": 25.8,
+    "g": 49.2,
+    "c": 8.6,
+    "t": "Frutos secos"
+  },
+  {
+    "n": "Cacao puro en polvo sin azúcar",
+    "p": 19.6,
+    "g": 13.7,
+    "c": 11.9,
+    "t": "Saborizantes"
+  },
+  {
+    "n": "Calabacín",
+    "p": 1.2,
+    "g": 0.3,
+    "c": 2.1,
+    "t": "Hortalizas"
+  },
+  {
+    "n": "Calamares",
+    "p": 15.6,
+    "g": 1.4,
+    "c": 3.1,
+    "t": "Mariscos"
+  },
+  {
+    "n": "Caldo de huesos (casero)",
+    "p": 6,
+    "g": 0.8,
+    "c": 0.5,
+    "t": "Caldo base"
+  },
+  {
+    "n": "Caldo de pollo bajo en sodio",
+    "p": 1.1,
+    "g": 0.2,
+    "c": 0.3,
+    "t": "Caldo base"
+  },
+  {
+    "n": "Camarones (pelados y cocidos)",
+    "p": 20.9,
+    "g": 1.1,
+    "c": 0.2,
+    "t": "Mariscos"
+  },
+  {
+    "n": "Camarones (pelados y crudos)",
+    "p": 18,
+    "g": 0.5,
+    "c": 0,
+    "t": "Mariscos"
+  },
+  {
+    "n": "Canela en polvo",
+    "p": 4,
+    "g": 1.2,
+    "c": 27.5,
+    "t": "Especia"
+  },
+  {
+    "n": "Canela molida",
+    "p": 4,
+    "g": 1.2,
+    "c": 27.5,
+    "t": "Especia"
+  },
+  {
+    "n": "Canónigos",
+    "p": 2,
+    "g": 0.4,
+    "c": 2.2,
+    "t": "Verduras"
+  },
+  {
+    "n": "Canónigos (crudo)",
+    "g": 0.4,
+    "p": 2,
+    "c": 0.6,
+    "t": "Verduras"
+  },
+  {
+    "n": "Carne picada de ternera (10 % grasa)",
+    "p": 20,
+    "g": 10,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Carne picada de ternera (15 % grasa)",
+    "p": 18.6,
+    "g": 15,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Carne picada de ternera (20 % grasa)",
+    "p": 17.2,
+    "g": 20,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Carne picada de ternera (5 % grasa)",
+    "p": 21.4,
+    "g": 5,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Carpaccio de ternera (solomillo crudo)",
+    "p": 22,
+    "g": 5.5,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Cebolla",
+    "p": 1.1,
+    "g": 0.1,
+    "c": 7.6,
+    "t": "Hortalizas"
+  },
+  {
+    "n": "Cebolla en polvo",
+    "p": 10.4,
+    "g": 1,
+    "c": 69.1,
+    "t": "Especia"
+  },
+  {
+    "n": "Cebolla morada",
+    "p": 1.1,
+    "g": 0.1,
+    "c": 7.3,
+    "t": "Hortalizas"
+  },
+  {
+    "n": "Cebollino fresco",
+    "p": 3.3,
+    "g": 0.7,
+    "c": 1.9,
+    "t": "Condimentos"
+  },
+  {
+    "n": "Chalota (cruda)",
+    "g": 0.1,
+    "p": 2.5,
+    "c": 13.8,
+    "t": "Verduras"
+  },
+  {
+    "n": "Champiñones blancos",
+    "p": 3.1,
+    "g": 0.3,
+    "c": 2.3,
+    "t": "Setas"
+  },
+  {
+    "n": "Champiñones Portobello",
+    "p": 2.1,
+    "g": 0.4,
+    "c": 2.6,
+    "t": "Setas"
+  },
+  {
+    "n": "Chile (guindilla seca)",
+    "p": 12,
+    "g": 17.3,
+    "c": 19.6,
+    "t": "Condimento"
+  },
+  {
+    "n": "Chocolate negro 85 %",
+    "p": 7.8,
+    "g": 42.6,
+    "c": 24,
+    "t": "Saborizantes"
+  },
+  {
+    "n": "Chorizo español",
+    "p": 24.1,
+    "g": 38.3,
+    "c": 1.9,
+    "t": "Charcutería (Curados y procesados)"
+  },
+  {
+    "n": "Chuleta de cerdo (con hueso)",
+    "p": 19.3,
+    "g": 11.6,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Chuleta de costilla de cordero",
+    "p": 17.1,
+    "g": 14.8,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Cilantro fresco",
+    "p": 2.1,
+    "g": 0.5,
+    "c": 0.9,
+    "t": "Condimentos"
+  },
+  {
+    "n": "Clara de huevo",
+    "p": 10.9,
+    "g": 0.2,
+    "c": 0.7,
+    "t": "Otros (Avícola)"
+  },
+  {
+    "n": "Coco rallado deshidratado sin azúcar",
+    "p": 6.9,
+    "g": 64.5,
+    "c": 7.3,
+    "t": "Coco (variantes)"
+  },
+  {
+    "n": "Coco rallado fresco (húmedo)",
+    "p": 3.3,
+    "g": 33.5,
+    "c": 6.2,
+    "t": "Coco (variantes)"
+  },
+  {
+    "n": "Coco seco (trozos)",
+    "p": 6.9,
+    "g": 64.5,
+    "c": 7.3,
+    "t": "Coco (variantes)"
+  },
+  {
+    "n": "Col (repollo)",
+    "p": 1.3,
+    "g": 0.1,
+    "c": 3.3,
+    "t": "Verduras"
+  },
+  {
+    "n": "Col china (cruda)",
+    "g": 0.2,
+    "p": 1.5,
+    "c": 1.18,
+    "t": "Verduras"
+  },
+  {
+    "n": "Col rizada (kale)",
+    "p": 2.9,
+    "g": 0.6,
+    "c": 4.4,
+    "t": "Verduras"
+  },
+  {
+    "n": "Coles de Bruselas",
+    "p": 3.4,
+    "g": 0.3,
+    "c": 5.2,
+    "t": "Verduras"
+  },
+  {
+    "n": "Coliflor",
+    "p": 1.9,
+    "g": 0.3,
+    "c": 3,
+    "t": "Verduras"
+  },
+  {
+    "n": "Comino molido",
+    "p": 17.8,
+    "g": 22.3,
+    "c": 33.7,
+    "t": "Especia"
+  },
+  {
+    "n": "Conejo (composición mixta)",
+    "p": 20.1,
+    "g": 5.6,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Contramuslo de pollo con piel",
+    "p": 16.5,
+    "g": 15.5,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Cordero picado",
+    "p": 16.6,
+    "g": 23.4,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Costilla de cerdo",
+    "p": 17.9,
+    "g": 15.5,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Cúrcuma molida",
+    "p": 9.7,
+    "g": 3.3,
+    "c": 44.4,
+    "t": "Condimento"
+  },
+  {
+    "n": "Curry en polvo",
+    "p": 14.3,
+    "g": 14,
+    "c": 25.2,
+    "t": "Condimentos"
+  },
+  {
+    "n": "Dorada",
+    "p": 19.7,
+    "g": 1.7,
+    "c": 0,
+    "t": "Pescados"
+  },
+  {
+    "n": "Eneldo seco",
+    "p": 20,
+    "g": 4.4,
+    "c": 27,
+    "t": "Especia"
+  },
+  {
+    "n": "Entrecot de ternera (ribeye)",
+    "p": 18.2,
+    "g": 14.3,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Eritritol",
+    "p": 0,
+    "g": 0,
+    "c": 0,
+    "t": "Edulcorante"
+  },
+  {
+    "n": "Espárragos trigueros (verdes)",
+    "p": 2.2,
+    "g": 0.1,
+    "c": 1.8,
+    "t": "Verduras"
+  },
+  {
+    "n": "Espinacas frescas",
+    "p": 2.9,
+    "g": 0.4,
+    "c": 1.4,
+    "t": "Verduras"
+  },
+  {
+    "n": "Extracto de vainilla sin azúcar",
+    "p": 0.1,
+    "g": 0.1,
+    "c": 12.7,
+    "t": "Saborizantes"
+  },
+  {
+    "n": "Frambuesas",
+    "p": 1.2,
+    "g": 0.7,
+    "c": 5.4,
+    "t": "Frutas frescas"
+  },
+  {
+    "n": "Fresas",
+    "p": 0.7,
+    "g": 0.3,
+    "c": 5.7,
+    "t": "Frutas frescas"
+  },
+  {
+    "n": "Galletas cetogénicas de coco",
+    "p": 8,
+    "g": 38,
+    "c": 8,
+    "t": "Panes Cetogénicos"
+  },
+  {
+    "n": "Gambas (peladas, cocidas)",
+    "p": 20.9,
+    "g": 1.1,
+    "c": 0.2,
+    "t": "Mariscos"
+  },
+  {
+    "n": "Gambas (peladas, crudas)",
+    "p": 18,
+    "g": 0.5,
+    "c": 0,
+    "t": "Mariscos"
+  },
+  {
+    "n": "Gambones (pelados, cocidos)",
+    "p": 20.9,
+    "g": 1.1,
+    "c": 0.2,
+    "t": "Mariscos"
+  },
+  {
+    "n": "Gambones (pelados, crudos)",
+    "p": 20.1,
+    "g": 0.5,
+    "c": 0,
+    "t": "Mariscos"
+  },
+  {
+    "n": "Ghee (mantequilla clarificada)",
+    "p": 0,
+    "g": 99.5,
+    "c": 0,
+    "t": "Grasas sólidas"
+  },
+  {
+    "n": "Harina de almendras",
+    "p": 21.4,
+    "g": 50.6,
+    "c": 9.6,
+    "t": "Harina"
+  },
+  {
+    "n": "Harina de coco",
+    "p": 19.3,
+    "g": 14.7,
+    "c": 25.6,
+    "t": "Harina"
+  },
+  {
+    "n": "Harina de linaza",
+    "p": 18.3,
+    "g": 42.2,
+    "c": 1.6,
+    "t": "Harina"
+  },
+  {
+    "n": "Hierbas provenzales (mezcla seca)",
+    "p": 8,
+    "g": 5,
+    "c": 30,
+    "t": "Condimentos"
+  },
+  {
+    "n": "Hígado de pollo",
+    "p": 16.9,
+    "g": 4.8,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Hígado de ternera",
+    "p": 20.4,
+    "g": 3.6,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Huevo entero",
+    "p": 12.6,
+    "g": 9.5,
+    "c": 0.7,
+    "t": "Otros (Avícola)"
+  },
+  {
+    "n": "Jamón cocido (bajo en azúcar)",
+    "p": 17,
+    "g": 4.8,
+    "c": 1.8,
+    "t": "Charcutería (Curados y procesados)"
+  },
+  {
+    "n": "Jamón ibérico",
+    "p": 28,
+    "g": 20,
+    "c": 0.1,
+    "t": "Charcutería (Curados y procesados)"
+  },
+  {
+    "n": "Jamón serrano",
+    "p": 31,
+    "g": 12.5,
+    "c": 0.2,
+    "t": "Charcutería (Curados y procesados)"
+  },
+  {
+    "n": "Judías verdes",
+    "p": 1.8,
+    "g": 0.2,
+    "c": 3.3,
+    "t": "Verduras"
+  },
+  {
+    "n": "Langostinos (pelados, cocidos)",
+    "p": 20.9,
+    "g": 1.1,
+    "c": 0.2,
+    "t": "Mariscos"
+  },
+  {
+    "n": "Langostinos (pelados, crudos)",
+    "p": 20.1,
+    "g": 0.5,
+    "c": 0,
+    "t": "Mariscos"
+  },
+  {
     "n": "Leche de almendras sin azúcar",
     "p": 0.6,
     "g": 1.1,
@@ -819,6 +777,76 @@
     "t": "Lácteos y derivados"
   },
   {
+    "n": "Lechuga romana",
+    "p": 1.2,
+    "g": 0.3,
+    "c": 1.2,
+    "t": "Verduras"
+  },
+  {
+    "n": "Lima (zumo)",
+    "p": 0.4,
+    "g": 0.1,
+    "c": 8.4,
+    "t": "Cítricos y zumos"
+  },
+  {
+    "n": "Limón (ralladura)",
+    "p": 1.5,
+    "g": 0.3,
+    "c": 5.2,
+    "t": "Cítricos y zumos"
+  },
+  {
+    "n": "Limón (zumo natural)",
+    "p": 0.4,
+    "g": 0.2,
+    "c": 6.9,
+    "t": "Cítricos y zumos"
+  },
+  {
+    "n": "Lomo de bacalao",
+    "p": 17.8,
+    "g": 0.7,
+    "c": 0,
+    "t": "Pescados"
+  },
+  {
+    "n": "Lomo de cerdo",
+    "p": 21.4,
+    "g": 5.7,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Lomo de merluza",
+    "p": 17.9,
+    "g": 1.3,
+    "c": 0,
+    "t": "Pescados"
+  },
+  {
+    "n": "Lubina",
+    "p": 18.4,
+    "g": 2,
+    "c": 0,
+    "t": "Pescados"
+  },
+  {
+    "n": "Magret de pato (con piel y grasa)",
+    "p": 19,
+    "g": 28.4,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Manteca de cerdo",
+    "p": 0,
+    "g": 100,
+    "c": 0,
+    "t": "Grasas sólidas"
+  },
+  {
     "n": "Mantequilla con sal",
     "p": 0.9,
     "g": 81.1,
@@ -826,11 +854,39 @@
     "t": "Lácteos y derivados"
   },
   {
+    "n": "Mantequilla de almendra",
+    "p": 20.9,
+    "g": 55.5,
+    "c": 8.5,
+    "t": "Mantequillas de frutos secos"
+  },
+  {
+    "n": "Mantequilla de avellana",
+    "p": 15,
+    "g": 60.8,
+    "c": 7,
+    "t": "Mantequillas de frutos secos"
+  },
+  {
+    "n": "Mantequilla de cacahuete",
+    "p": 25.1,
+    "g": 50.4,
+    "c": 12.4,
+    "t": "Mantequillas de frutos secos"
+  },
+  {
     "n": "Mantequilla de hierbas (casera)",
     "p": 0.9,
     "g": 81.1,
     "c": 0.1,
     "t": "Lácteos y derivados"
+  },
+  {
+    "n": "Mantequilla de macadamia",
+    "p": 7.9,
+    "g": 75.8,
+    "c": 5.2,
+    "t": "Mantequillas de frutos secos"
   },
   {
     "n": "Mantequilla de pastoreo (grass-fed)",
@@ -868,389 +924,53 @@
     "t": "Lácteos y derivados"
   },
   {
+    "n": "Mejillones",
+    "p": 11.9,
+    "g": 2.2,
+    "c": 3.7,
+    "t": "Mariscos"
+  },
+  {
+    "n": "Mezcla de hojas verdes",
+    "p": 1.6,
+    "g": 0.2,
+    "c": 1.5,
+    "t": "Verduras"
+  },
+  {
+    "n": "Moras",
+    "p": 1.4,
+    "g": 0.5,
+    "c": 4.3,
+    "t": "Frutas frescas"
+  },
+  {
+    "n": "Mostaza de Dijon",
+    "p": 4.4,
+    "g": 3.3,
+    "c": 3.3,
+    "t": "Condimentos"
+  },
+  {
+    "n": "Muslo de pavo",
+    "p": 20.1,
+    "g": 4.5,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Muslo de pollo sin piel",
+    "p": 19.2,
+    "g": 4.8,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
     "n": "Nata líquida (35 % MG)",
     "p": 2.1,
     "g": 36.1,
     "c": 2.8,
     "t": "Lácteos y derivados"
-  },
-  {
-    "n": "Quark 0 %",
-    "p": 12,
-    "g": 0.3,
-    "c": 4,
-    "t": "Lácteos y derivados"
-  },
-  {
-    "n": "Quark entero",
-    "p": 11,
-    "g": 4.5,
-    "c": 3.5,
-    "t": "Lácteos y derivados"
-  },
-  {
-    "n": "Queso crema (tipo Philadelphia)",
-    "p": 5.9,
-    "g": 34.2,
-    "c": 2.7,
-    "t": "Lácteos y derivados"
-  },
-  {
-    "n": "Queso crema light",
-    "p": 7.95,
-    "g": 0.04,
-    "c": 3.89,
-    "t": "Lácteos y derivados"
-  },
-  {
-    "n": "Queso fresco batido (fromage blanc)",
-    "p": 8,
-    "g": 0.2,
-    "c": 3.2,
-    "t": "Lácteos y derivados"
-  },
-  {
-    "n": "Skyr natural",
-    "p": 11,
-    "g": 0.2,
-    "c": 3.8,
-    "t": "Lácteos y derivados"
-  },
-  {
-    "n": "Yogur griego natural 0 %",
-    "p": 10.2,
-    "g": 0.4,
-    "c": 3.6,
-    "t": "Lácteos y derivados"
-  },
-  {
-    "n": "Yogur griego natural 2 %",
-    "p": 9.9,
-    "g": 1.7,
-    "c": 3.2,
-    "t": "Lácteos y derivados"
-  },
-  {
-    "n": "Yogur griego natural entero",
-    "p": 9,
-    "g": 5,
-    "c": 3.6,
-    "t": "Lácteos y derivados"
-  },
-  {
-    "n": "Queso Brie",
-    "p": 20.8,
-    "g": 27.7,
-    "c": 0.5,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso Camembert",
-    "p": 19.8,
-    "g": 24.3,
-    "c": 0.5,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso cottage (0 % MG)",
-    "p": 10.3,
-    "g": 0.3,
-    "c": 6.4,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso cottage (1 % MG)",
-    "p": 12.4,
-    "g": 1,
-    "c": 2.7,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso cottage (2 % MG)",
-    "p": 10.5,
-    "g": 2.3,
-    "c": 4.8,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso cottage (entero, 4 % MG)",
-    "p": 11.1,
-    "g": 4.3,
-    "c": 3.4,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso crema (tipo Philadelphia)",
-    "p": 5.9,
-    "g": 34.2,
-    "c": 2.7,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso de cabra (rulo fresco)",
-    "p": 18.5,
-    "g": 21.1,
-    "c": 0.9,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso feta",
-    "p": 14.2,
-    "g": 21.3,
-    "c": 4.1,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso fresco de Burgos (0 % MG)",
-    "p": 13,
-    "g": 0.2,
-    "c": 3.8,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso fresco de Burgos (entero)",
-    "p": 12.4,
-    "g": 15.4,
-    "c": 2.5,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso mascarpone",
-    "p": 5,
-    "g": 44,
-    "c": 3.5,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso mozzarella (baja humedad)",
-    "p": 22.2,
-    "g": 24.6,
-    "c": 2.5,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso mozzarella fresca",
-    "p": 28,
-    "g": 17.1,
-    "c": 3.1,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Requesón (entero)",
-    "p": 12,
-    "g": 4.5,
-    "c": 2,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Requesón (semidesnatado)",
-    "p": 12.5,
-    "g": 2,
-    "c": 2.5,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Ricotta (entera)",
-    "p": 11.3,
-    "g": 13,
-    "c": 3,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Ricotta (semidesnatada)",
-    "p": 11.4,
-    "g": 7.9,
-    "c": 5.1,
-    "t": "Quesos — Frescos y blandos"
-  },
-  {
-    "n": "Queso azul (tipo Roquefort)",
-    "p": 21.4,
-    "g": 28.7,
-    "c": 2.3,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso cheddar",
-    "p": 24.9,
-    "g": 33.1,
-    "c": 1.3,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso curado mezcla (rallado)",
-    "p": 26,
-    "g": 32,
-    "c": 0.5,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso de cabra curado",
-    "p": 30.5,
-    "g": 35.6,
-    "c": 2.2,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso Edam",
-    "p": 24.9,
-    "g": 27.8,
-    "c": 1.4,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso Emmental",
-    "p": 28.8,
-    "g": 27.8,
-    "c": 3.4,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso Gouda",
-    "p": 24.9,
-    "g": 27.4,
-    "c": 2.2,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso Grana Padano",
-    "p": 33,
-    "g": 28,
-    "c": 0,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso Gruyère",
-    "p": 29.8,
-    "g": 32.3,
-    "c": 0.4,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso Havarti",
-    "p": 23.2,
-    "g": 30.9,
-    "c": 0,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso manchego curado",
-    "p": 26,
-    "g": 32,
-    "c": 0.5,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso manchego semicurado",
-    "p": 24.5,
-    "g": 30,
-    "c": 0.5,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso mezcla rallado (Emmental/Gouda)",
-    "p": 26.8,
-    "g": 27.6,
-    "c": 1.8,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso parmesano",
-    "p": 35.8,
-    "g": 25.8,
-    "c": 3.2,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Queso Provolone",
-    "p": 25.6,
-    "g": 26.6,
-    "c": 2.1,
-    "t": "Quesos — Curados y semicurados"
-  },
-  {
-    "n": "Aceite de aguacate",
-    "p": 0,
-    "g": 100,
-    "c": 0,
-    "t": "Aceites"
-  },
-  {
-    "n": "Aceite de coco",
-    "p": 0,
-    "g": 99.1,
-    "c": 0,
-    "t": "Aceites"
-  },
-  {
-    "n": "Aceite de linaza",
-    "p": 0,
-    "g": 100,
-    "c": 0,
-    "t": "Aceites"
-  },
-  {
-    "n": "Aceite de oliva virgen extra (AOVE)",
-    "p": 0,
-    "g": 100,
-    "c": 0,
-    "t": "Aceites"
-  },
-  {
-    "n": "Aceite de sésamo",
-    "p": 0,
-    "g": 100,
-    "c": 0,
-    "t": "Aceites"
-  },
-  {
-    "n": "Aceite MCT",
-    "p": 0,
-    "g": 100,
-    "c": 0,
-    "t": "Aceites"
-  },
-  {
-    "n": "Ghee (mantequilla clarificada)",
-    "p": 0,
-    "g": 99.5,
-    "c": 0,
-    "t": "Grasas sólidas"
-  },
-  {
-    "n": "Manteca de cerdo",
-    "p": 0,
-    "g": 100,
-    "c": 0,
-    "t": "Grasas sólidas"
-  },
-  {
-    "n": "Sebo de ternera",
-    "p": 0,
-    "g": 100,
-    "c": 0,
-    "t": "Grasas sólidas"
-  },
-  {
-    "n": "Almendras enteras",
-    "p": 21.2,
-    "g": 49.9,
-    "c": 9.1,
-    "t": "Frutos secos"
-  },
-  {
-    "n": "Almendras laminadas",
-    "p": 21.2,
-    "g": 49.9,
-    "c": 9.1,
-    "t": "Frutos secos"
-  },
-  {
-    "n": "Cacahuetes (sin cáscara)",
-    "p": 25.8,
-    "g": 49.2,
-    "c": 8.6,
-    "t": "Frutos secos"
   },
   {
     "n": "Nueces de avellanas",
@@ -1302,11 +1022,137 @@
     "t": "Frutos secos"
   },
   {
-    "n": "Pistachos",
-    "p": 20.2,
-    "g": 45.3,
-    "c": 17.6,
-    "t": "Frutos secos"
+    "n": "Orégano seco",
+    "p": 9,
+    "g": 4.3,
+    "c": 49.5,
+    "t": "Especia"
+  },
+  {
+    "n": "Osobuco de ternera (con hueso)",
+    "p": 19.4,
+    "g": 7.6,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Pan cetogénico (base almendra/lino)",
+    "p": 12,
+    "g": 18,
+    "c": 4,
+    "t": "Panes Cetogénicos"
+  },
+  {
+    "n": "Pan cetogénico (base coco/almendra)",
+    "p": 10,
+    "g": 22,
+    "c": 5,
+    "t": "Panes Cetogénicos"
+  },
+  {
+    "n": "Pan cetogénico (base psyllium/huevo)",
+    "p": 14,
+    "g": 12,
+    "c": 3,
+    "t": "Panes Cetogénicos"
+  },
+  {
+    "n": "Pechuga de pato (solo carne)",
+    "p": 19.9,
+    "g": 4.3,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Pechuga de pavo",
+    "p": 23.7,
+    "g": 0.7,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Pechuga de pollo sin piel",
+    "p": 22.5,
+    "g": 2.6,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Pepinillos (encurtidos)",
+    "p": 0.3,
+    "g": 0.2,
+    "c": 1.1,
+    "t": "Hortalizas"
+  },
+  {
+    "n": "Pepino fresco",
+    "p": 0.7,
+    "g": 0.1,
+    "c": 3.1,
+    "t": "Hortalizas"
+  },
+  {
+    "n": "Perejil fresco",
+    "p": 3,
+    "g": 0.8,
+    "c": 3.3,
+    "t": "Condimentos"
+  },
+  {
+    "n": "Pez espada",
+    "p": 19.7,
+    "g": 6.7,
+    "c": 0,
+    "t": "Pescados"
+  },
+  {
+    "n": "Pierna de cordero",
+    "p": 19.7,
+    "g": 8.8,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
+    "n": "Pimentón de la Vera",
+    "p": 14.1,
+    "g": 12.9,
+    "c": 21.3,
+    "t": "Condimento"
+  },
+  {
+    "n": "Pimentón dulce",
+    "p": 14.1,
+    "g": 12.9,
+    "c": 21.3,
+    "t": "Especia"
+  },
+  {
+    "n": "Pimienta negra molida",
+    "p": 10.4,
+    "g": 3.3,
+    "c": 38.3,
+    "t": "Condimento"
+  },
+  {
+    "n": "Pimiento amarillo",
+    "p": 1,
+    "g": 0.2,
+    "c": 5.4,
+    "t": "Hortalizas"
+  },
+  {
+    "n": "Pimiento rojo",
+    "p": 1,
+    "g": 0.3,
+    "c": 4.2,
+    "t": "Hortalizas"
+  },
+  {
+    "n": "Pimiento verde",
+    "p": 0.9,
+    "g": 0.2,
+    "c": 2.9,
+    "t": "Hortalizas"
   },
   {
     "n": "Piñones",
@@ -1316,6 +1162,419 @@
     "t": "Frutos secos"
   },
   {
+    "n": "Pistachos",
+    "p": 20.2,
+    "g": 45.3,
+    "c": 17.6,
+    "t": "Frutos secos"
+  },
+  {
+    "n": "Proteína de suero concentrada",
+    "p": 72,
+    "g": 6.5,
+    "c": 12,
+    "t": "Suplemento proteico"
+  },
+  {
+    "n": "Psyllium en polvo",
+    "p": 0.3,
+    "g": 0.4,
+    "c": 4.7,
+    "t": "Harina"
+  },
+  {
+    "n": "Pulpo cocido",
+    "p": 29.8,
+    "g": 2.1,
+    "c": 4.4,
+    "t": "Mariscos"
+  },
+  {
+    "n": "Quark 0 %",
+    "p": 12,
+    "g": 0.3,
+    "c": 4,
+    "t": "Lácteos y derivados"
+  },
+  {
+    "n": "Quark entero",
+    "p": 11,
+    "g": 4.5,
+    "c": 3.5,
+    "t": "Lácteos y derivados"
+  },
+  {
+    "n": "Queso azul (tipo Roquefort)",
+    "p": 21.4,
+    "g": 28.7,
+    "c": 2.3,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso Brie",
+    "p": 20.8,
+    "g": 27.7,
+    "c": 0.5,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso Camembert",
+    "p": 19.8,
+    "g": 24.3,
+    "c": 0.5,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso cheddar",
+    "p": 24.9,
+    "g": 33.1,
+    "c": 1.3,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso cottage (0 % MG)",
+    "p": 10.3,
+    "g": 0.3,
+    "c": 6.4,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso cottage (1 % MG)",
+    "p": 12.4,
+    "g": 1,
+    "c": 2.7,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso cottage (2 % MG)",
+    "p": 10.5,
+    "g": 2.3,
+    "c": 4.8,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso cottage (entero, 4 % MG)",
+    "p": 11.1,
+    "g": 4.3,
+    "c": 3.4,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso crema (tipo Philadelphia)",
+    "p": 5.9,
+    "g": 34.2,
+    "c": 2.7,
+    "t": "Lácteos y derivados"
+  },
+  {
+    "n": "Queso crema (tipo Philadelphia)",
+    "p": 5.9,
+    "g": 34.2,
+    "c": 2.7,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso crema light",
+    "p": 7.95,
+    "g": 0.04,
+    "c": 3.89,
+    "t": "Lácteos y derivados"
+  },
+  {
+    "n": "Queso curado mezcla (rallado)",
+    "p": 26,
+    "g": 32,
+    "c": 0.5,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso de cabra (rulo fresco)",
+    "p": 18.5,
+    "g": 21.1,
+    "c": 0.9,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso de cabra curado",
+    "p": 30.5,
+    "g": 35.6,
+    "c": 2.2,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso Edam",
+    "p": 24.9,
+    "g": 27.8,
+    "c": 1.4,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso Emmental",
+    "p": 28.8,
+    "g": 27.8,
+    "c": 3.4,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso feta",
+    "p": 14.2,
+    "g": 21.3,
+    "c": 4.1,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso fresco batido (fromage blanc)",
+    "p": 8,
+    "g": 0.2,
+    "c": 3.2,
+    "t": "Lácteos y derivados"
+  },
+  {
+    "n": "Queso fresco de Burgos (0 % MG)",
+    "p": 13,
+    "g": 0.2,
+    "c": 3.8,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso fresco de Burgos (entero)",
+    "p": 12.4,
+    "g": 15.4,
+    "c": 2.5,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso Gouda",
+    "p": 24.9,
+    "g": 27.4,
+    "c": 2.2,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso Grana Padano",
+    "p": 33,
+    "g": 28,
+    "c": 0,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso Gruyère",
+    "p": 29.8,
+    "g": 32.3,
+    "c": 0.4,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso Havarti",
+    "p": 23.2,
+    "g": 30.9,
+    "c": 0,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso manchego curado",
+    "p": 26,
+    "g": 32,
+    "c": 0.5,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso manchego semicurado",
+    "p": 24.5,
+    "g": 30,
+    "c": 0.5,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso mascarpone",
+    "p": 5,
+    "g": 44,
+    "c": 3.5,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso mezcla rallado (Emmental/Gouda)",
+    "p": 26.8,
+    "g": 27.6,
+    "c": 1.8,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso mozzarella (baja humedad)",
+    "p": 22.2,
+    "g": 24.6,
+    "c": 2.5,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso mozzarella fresca",
+    "p": 28,
+    "g": 17.1,
+    "c": 3.1,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Queso parmesano",
+    "p": 35.8,
+    "g": 25.8,
+    "c": 3.2,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Queso Provolone",
+    "p": 25.6,
+    "g": 26.6,
+    "c": 2.1,
+    "t": "Quesos — Curados y semicurados"
+  },
+  {
+    "n": "Requesón (entero)",
+    "p": 12,
+    "g": 4.5,
+    "c": 2,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Requesón (semidesnatado)",
+    "p": 12.5,
+    "g": 2,
+    "c": 2.5,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Ricotta (entera)",
+    "p": 11.3,
+    "g": 13,
+    "c": 3,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Ricotta (semidesnatada)",
+    "p": 11.4,
+    "g": 7.9,
+    "c": 5.1,
+    "t": "Quesos — Frescos y blandos"
+  },
+  {
+    "n": "Romero fresco",
+    "p": 3.3,
+    "g": 5.9,
+    "c": 6.7,
+    "t": "Condimentos"
+  },
+  {
+    "n": "Romero seco",
+    "p": 3.3,
+    "g": 5.9,
+    "c": 6.7,
+    "t": "Condimento"
+  },
+  {
+    "n": "Rúcula",
+    "p": 2.6,
+    "g": 0.7,
+    "c": 2.1,
+    "t": "Verduras"
+  },
+  {
+    "n": "Rúcula (cruda)",
+    "g": 0.66,
+    "p": 2.58,
+    "c": 2.05,
+    "t": "Verduras"
+  },
+  {
+    "n": "Sal",
+    "p": 0,
+    "g": 0,
+    "c": 0,
+    "t": "Condimentos"
+  },
+  {
+    "n": "Salchicha de pollo",
+    "p": 14.5,
+    "g": 16.7,
+    "c": 1.5,
+    "t": "Charcutería (Curados y procesados)"
+  },
+  {
+    "n": "Salchicha fresca de cerdo",
+    "p": 13.5,
+    "g": 26.8,
+    "c": 0.6,
+    "t": "Charcutería (Curados y procesados)"
+  },
+  {
+    "n": "Salchicha tipo bratwurst",
+    "p": 13.7,
+    "g": 29.2,
+    "c": 2.9,
+    "t": "Charcutería (Curados y procesados)"
+  },
+  {
+    "n": "Salchicha tipo Frankfurt",
+    "p": 11.2,
+    "g": 23,
+    "c": 1.6,
+    "t": "Charcutería (Curados y procesados)"
+  },
+  {
+    "n": "Salchichón",
+    "p": 25.8,
+    "g": 36.6,
+    "c": 1.2,
+    "t": "Charcutería (Curados y procesados)"
+  },
+  {
+    "n": "Salmón ahumado",
+    "p": 18.3,
+    "g": 4.3,
+    "c": 0,
+    "t": "Charcutería (Curados y procesados)"
+  },
+  {
+    "n": "Salmón del Atlántico",
+    "p": 20.4,
+    "g": 13.4,
+    "c": 0,
+    "t": "Pescados"
+  },
+  {
+    "n": "Salsa de soja (tamari)",
+    "p": 10.5,
+    "g": 0.1,
+    "c": 5.6,
+    "t": "Condimentos"
+  },
+  {
+    "n": "Sardinas en aceite (escurridas)",
+    "p": 24.6,
+    "g": 11.5,
+    "c": 0,
+    "t": "Pescados"
+  },
+  {
+    "n": "Sardinas frescas (crudo)",
+    "p": 24.6,
+    "g": 11.5,
+    "c": 0,
+    "t": "Pescados"
+  },
+  {
+    "n": "Sebo de ternera",
+    "p": 0,
+    "g": 100,
+    "c": 0,
+    "t": "Grasas sólidas"
+  },
+  {
+    "n": "Secreto ibérico",
+    "p": 18,
+    "g": 23,
+    "c": 0,
+    "t": "Carnicería (Frescos)"
+  },
+  {
     "n": "Semillas de calabaza (pipas peladas)",
     "p": 30.2,
     "g": 49.1,
@@ -1323,17 +1582,17 @@
     "t": "Semillas"
   },
   {
-    "n": "Semillas de chía",
-    "p": 16.5,
-    "g": 30.7,
-    "c": 7.7,
-    "t": "Semillas"
-  },
-  {
     "n": "Semillas de cáñamo",
     "p": 31.6,
     "g": 48.8,
     "c": 1.5,
+    "t": "Semillas"
+  },
+  {
+    "n": "Semillas de chía",
+    "p": 16.5,
+    "g": 30.7,
+    "c": 7.7,
     "t": "Semillas"
   },
   {
@@ -1358,39 +1617,32 @@
     "t": "Semillas"
   },
   {
-    "n": "Harina de almendras",
-    "p": 21.4,
-    "g": 50.6,
-    "c": 9.6,
-    "t": "Harina"
+    "n": "Sepia",
+    "p": 16.2,
+    "g": 0.7,
+    "c": 0.8,
+    "t": "Mariscos"
   },
   {
-    "n": "Harina de coco",
-    "p": 19.3,
-    "g": 14.7,
-    "c": 25.6,
-    "t": "Harina"
+    "n": "Setas shiitake",
+    "p": 2.2,
+    "g": 0.5,
+    "c": 4.3,
+    "t": "Setas"
   },
   {
-    "n": "Harina de linaza",
-    "p": 18.3,
-    "g": 42.2,
-    "c": 1.6,
-    "t": "Harina"
+    "n": "Skyr natural",
+    "p": 11,
+    "g": 0.2,
+    "c": 3.8,
+    "t": "Lácteos y derivados"
   },
   {
-    "n": "Psyllium en polvo",
-    "p": 0.3,
-    "g": 0.4,
-    "c": 4.7,
-    "t": "Harina"
-  },
-  {
-    "n": "Eritritol",
-    "p": 0,
-    "g": 0,
+    "n": "Solomillo de ternera",
+    "p": 22,
+    "g": 5.5,
     "c": 0,
-    "t": "Edulcorante"
+    "t": "Carnicería (Frescos)"
   },
   {
     "n": "Stevia (extracto puro)",
@@ -1400,116 +1652,32 @@
     "t": "Edulcorante"
   },
   {
-    "n": "Cacao puro en polvo sin azúcar",
-    "p": 19.6,
-    "g": 13.7,
-    "c": 11.9,
-    "t": "Saborizantes"
-  },
-  {
-    "n": "Chocolate negro 85 %",
-    "p": 7.8,
-    "g": 42.6,
-    "c": 24,
-    "t": "Saborizantes"
-  },
-  {
-    "n": "Extracto de vainilla sin azúcar",
-    "p": 0.1,
-    "g": 0.1,
-    "c": 12.7,
-    "t": "Saborizantes"
-  },
-  {
-    "n": "Aislado de proteína de suero (whey)",
-    "p": 85.7,
-    "g": 1,
-    "c": 3.6,
-    "t": "Suplemento proteico"
-  },
-  {
-    "n": "Proteína de suero concentrada",
-    "p": 72,
-    "g": 6.5,
-    "c": 12,
-    "t": "Suplemento proteico"
-  },
-  {
-    "n": "Caldo de huesos (casero)",
-    "p": 6,
-    "g": 0.8,
-    "c": 0.5,
-    "t": "Caldo base"
-  },
-  {
-    "n": "Caldo de pollo bajo en sodio",
-    "p": 1.1,
-    "g": 0.2,
-    "c": 0.3,
-    "t": "Caldo base"
-  },
-  {
-    "n": "Mantequilla de almendra",
-    "p": 20.9,
-    "g": 55.5,
-    "c": 8.5,
-    "t": "Mantequillas de frutos secos"
-  },
-  {
-    "n": "Mantequilla de avellana",
-    "p": 15,
-    "g": 60.8,
-    "c": 7,
-    "t": "Mantequillas de frutos secos"
-  },
-  {
-    "n": "Mantequilla de cacahuete",
-    "p": 25.1,
-    "g": 50.4,
-    "c": 12.4,
-    "t": "Mantequillas de frutos secos"
-  },
-  {
-    "n": "Mantequilla de macadamia",
-    "p": 7.9,
-    "g": 75.8,
-    "c": 5.2,
-    "t": "Mantequillas de frutos secos"
-  },
-  {
     "n": "Tahini (pasta de sésamo)",
+    "g": 53.76,
     "p": 17,
-    "g": 53.8,
-    "c": 11.9,
+    "c": 12.68,
     "t": "Mantequillas de frutos secos"
   },
   {
-    "n": "Galletas cetogénicas de coco",
-    "p": 8,
-    "g": 38,
-    "c": 8,
-    "t": "Panes Cetogénicos"
+    "n": "Tempeh",
+    "p": 20.3,
+    "g": 10.8,
+    "c": 4.6,
+    "t": "Proteína vegetal"
   },
   {
-    "n": "Pan cetogénico (base almendra/lino)",
-    "p": 12,
-    "g": 18,
-    "c": 4,
-    "t": "Panes Cetogénicos"
+    "n": "Tomate cereza (cherry)",
+    "p": 0.9,
+    "g": 0.2,
+    "c": 2.7,
+    "t": "Hortalizas"
   },
   {
-    "n": "Pan cetogénico (base coco/almendra)",
-    "p": 10,
-    "g": 22,
-    "c": 5,
-    "t": "Panes Cetogénicos"
-  },
-  {
-    "n": "Pan cetogénico (base psyllium/huevo)",
-    "p": 14,
-    "g": 12,
-    "c": 3,
-    "t": "Panes Cetogénicos"
+    "n": "Tomate maduro",
+    "p": 0.9,
+    "g": 0.2,
+    "c": 2.7,
+    "t": "Hortalizas"
   },
   {
     "n": "Tostadas cetogénicas de semillas",
@@ -1519,158 +1687,11 @@
     "t": "Panes Cetogénicos"
   },
   {
-    "n": "Ajo en polvo",
-    "p": 16.6,
-    "g": 0.7,
-    "c": 65,
-    "t": "Especia"
-  },
-  {
-    "n": "Canela en polvo",
-    "p": 4,
-    "g": 1.2,
-    "c": 27.5,
-    "t": "Especia"
-  },
-  {
-    "n": "Canela molida",
-    "p": 4,
-    "g": 1.2,
-    "c": 27.5,
-    "t": "Especia"
-  },
-  {
-    "n": "Cebolla en polvo",
-    "p": 10.4,
-    "g": 1,
-    "c": 69.1,
-    "t": "Especia"
-  },
-  {
-    "n": "Chile (guindilla seca)",
-    "p": 12,
-    "g": 17.3,
-    "c": 19.6,
-    "t": "Condimento"
-  },
-  {
-    "n": "Comino molido",
-    "p": 17.8,
-    "g": 22.3,
-    "c": 33.7,
-    "t": "Especia"
-  },
-  {
-    "n": "Cúrcuma molida",
-    "p": 9.7,
-    "g": 3.3,
-    "c": 44.4,
-    "t": "Condimento"
-  },
-  {
-    "n": "Eneldo seco",
-    "p": 20,
-    "g": 4.4,
-    "c": 27,
-    "t": "Especia"
-  },
-  {
-    "n": "Orégano seco",
-    "p": 9,
-    "g": 4.3,
-    "c": 49.5,
-    "t": "Especia"
-  },
-  {
-    "n": "Pimentón de la Vera",
-    "p": 14.1,
-    "g": 12.9,
-    "c": 21.3,
-    "t": "Condimento"
-  },
-  {
-    "n": "Pimentón dulce",
-    "p": 14.1,
-    "g": 12.9,
-    "c": 21.3,
-    "t": "Especia"
-  },
-  {
-    "n": "Pimienta negra molida",
-    "p": 10.4,
-    "g": 3.3,
-    "c": 38.3,
-    "t": "Condimento"
-  },
-  {
-    "n": "Romero seco",
-    "p": 3.3,
-    "g": 5.9,
-    "c": 6.7,
-    "t": "Condimento"
-  },
-  {
-    "n": "Cebollino fresco",
-    "p": 3.3,
-    "g": 0.7,
-    "c": 1.9,
-    "t": "Condimentos"
-  },
-  {
-    "n": "Cilantro fresco",
-    "p": 2.1,
-    "g": 0.5,
-    "c": 0.9,
-    "t": "Condimentos"
-  },
-  {
-    "n": "Curry en polvo",
-    "p": 14.3,
-    "g": 14,
-    "c": 25.2,
-    "t": "Condimentos"
-  },
-  {
-    "n": "Hierbas provenzales (mezcla seca)",
-    "p": 8,
-    "g": 5,
-    "c": 30,
-    "t": "Condimentos"
-  },
-  {
-    "n": "Mostaza de Dijon",
-    "p": 4.4,
-    "g": 3.3,
-    "c": 3.3,
-    "t": "Condimentos"
-  },
-  {
-    "n": "Perejil fresco",
-    "p": 3,
-    "g": 0.8,
-    "c": 3.3,
-    "t": "Condimentos"
-  },
-  {
-    "n": "Romero fresco",
-    "p": 3.3,
-    "g": 5.9,
-    "c": 6.7,
-    "t": "Condimentos"
-  },
-  {
-    "n": "Sal",
-    "p": 0,
-    "g": 0,
+    "n": "Trucha",
+    "p": 20.5,
+    "g": 3.5,
     "c": 0,
-    "t": "Condimentos"
-  },
-  {
-    "n": "Salsa de soja (tamari)",
-    "p": 10.5,
-    "g": 0.1,
-    "c": 5.6,
-    "t": "Condimentos"
+    "t": "Pescados"
   },
   {
     "n": "Vinagre de manzana",
@@ -1685,5 +1706,33 @@
     "g": 0,
     "c": 0.3,
     "t": "Condimentos"
+  },
+  {
+    "n": "Yema de huevo",
+    "p": 15.9,
+    "g": 26.5,
+    "c": 3.6,
+    "t": "Otros (Avícola)"
+  },
+  {
+    "n": "Yogur griego natural 0 %",
+    "p": 10.2,
+    "g": 0.4,
+    "c": 3.6,
+    "t": "Lácteos y derivados"
+  },
+  {
+    "n": "Yogur griego natural 2 %",
+    "p": 9.9,
+    "g": 1.7,
+    "c": 3.2,
+    "t": "Lácteos y derivados"
+  },
+  {
+    "n": "Yogur griego natural entero",
+    "p": 9,
+    "g": 5,
+    "c": 3.6,
+    "t": "Lácteos y derivados"
   }
 ]
