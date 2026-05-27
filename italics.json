@@ -1,0 +1,15 @@
+{
+  "cursiva": [
+    "whey", "ghee", "tempeh", "kale", "feta", "mozzarella", "cheddar", "mascarpone",
+    "ricotta", "skyr", "quark", "cottage", "carpaccio", "ribeye", "magret", "bratwurst",
+    "psyllium", "tahini", "tamari", "shiitake", "portobello", "fromage blanc",
+    "grass-fed", "beicon", "bacon", "macadamia", "pecanas", "cherry", "light"
+  ],
+  "cursiva-mayuscula": [
+    "Kalamata", "Philadelphia", "Roquefort", "Frankfurt", "Brie", "Camembert",
+    "Gouda", "Emmental", "Gruyère", "Havarti", "Provolone", "Edam", "Grana Padano", "Dijon"
+  ],
+  "mayuscula-redonda": [
+    "Burgos", "Vera", "Brasil", "California", "Castilla", "India"
+  ]
+}
