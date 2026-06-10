@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Balance Nutricional — Armonía y Vitalidad</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--v:#1D9E75;--vl:#E1F5EE;--vd:#085041;--tm:#666;--tb:#e2e2df;--bg:#f7f7f4;--card:#fff}
+body{font-family:"DM Sans",sans-serif;background:var(--bg);color:#1a1a1a;font-size:14px;line-height:1.6}
+.app{max-width:900px;margin:0 auto;padding:28px 20px 60px}
+.hdr{display:flex;align-items:center;gap:14px;margin-bottom:26px;padding-bottom:20px;border-bottom:1.5px solid var(--tb)}
+.logo{width:44px;height:44px;background:var(--v);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.hdr h1{font-family:"DM Serif Display",serif;font-size:24px;color:var(--vd);line-height:1.2}
+.hdr p{font-size:12px;color:var(--tm);margin-top:2px}
+.sec{font-size:11px;font-weight:500;color:var(--tm);text-transform:uppercase;letter-spacing:.9px;margin-bottom:8px;margin-top:22px}
+.perfiles{display:flex;gap:7px;flex-wrap:wrap}
+.pb{padding:7px 15px;border:1px solid var(--tb);border-radius:20px;background:white;font-size:13px;font-family:"DM Sans",sans-serif;cursor:pointer;color:var(--tm);transition:all .18s}
+.pb.on{background:var(--v);border-color:var(--v);color:white;font-weight:500}
+.pb:hover:not(.on){border-color:var(--v);color:var(--v)}
+.chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}
+.chip{padding:4px 12px;border-radius:10px;font-size:12px;font-weight:500}
+.ck{background:var(--vl);color:var(--vd)}.cg{background:#FFF3E0;color:#BF360C}
+.cp{background:#E3F2FD;color:#0D47A1}.cc{background:#F3E5F5;color:#4A148C}
+.dia-row{display:flex;align-items:center;gap:10px;margin-top:6px}
+.dia-row label{font-size:13px;color:var(--tm)}
+.dia-in{width:80px;padding:7px 10px;border:1px solid var(--tb);border-radius:7px;font-size:14px;font-family:"DM Sans",sans-serif;text-align:center}
+.dia-in:focus{outline:none;border-color:var(--v)}
+.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:6px}
+@media(max-width:580px){.cgrid{grid-template-columns:1fr}}
+.cc-card{background:var(--card);border:1px solid var(--tb);border-radius:10px;padding:14px}
+.cc-head{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.cc-ico{width:28px;height:28px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
+.cc-name{font-weight:500;font-size:13px}.cc-sum{font-size:11px;color:var(--v);margin-top:1px}
+.ir{display:flex;gap:5px;margin-bottom:6px;align-items:flex-start}
+.ing-wrap{flex:1;position:relative;min-width:0}
+.ing-search{width:100%;padding:5px 8px;border:1px solid var(--tb);border-radius:5px;font-size:12px;font-family:"DM Sans",sans-serif;background:white}
+.ing-search:focus{outline:none;border-color:var(--v)}
+.ing-dropdown{position:absolute;top:100%;left:0;right:0;background:white;border:1px solid var(--v);border-radius:5px;max-height:200px;overflow-y:auto;z-index:100;display:none;box-shadow:0 4px 12px rgba(0,0,0,.1)}
+.ing-dropdown.show{display:block}
+.ing-opt{padding:6px 10px;font-size:12px;cursor:pointer;border-bottom:1px solid #f0f0f0}
+.ing-opt:hover{background:var(--vl);color:var(--vd)}
+.ing-opt .cat-label{font-size:10px;color:var(--tm);display:block}
+.ing-selected{font-size:11px;color:var(--v);margin-top:2px;font-style:italic}
+.ig{width:70px;padding:5px 6px;border:1px solid var(--tb);border-radius:5px;font-size:12px;font-family:"DM Sans",sans-serif;text-align:right}
+.ig:focus{outline:none;border-color:var(--v)}
+.iu{font-size:11px;color:var(--tm);flex-shrink:0;padding-top:6px}
+.ibtn-del{width:22px;height:22px;border:none;background:none;cursor:pointer;color:#ccc;font-size:15px;transition:color .15s;flex-shrink:0;padding-top:4px}
+.ibtn-del:hover{color:#e53935}
+.ibtn-add{display:inline-flex;align-items:center;gap:4px;margin-top:6px;padding:5px 10px;border:1px dashed var(--tb);border-radius:5px;background:none;cursor:pointer;color:var(--tm);font-size:12px;font-family:"DM Sans",sans-serif;transition:all .18s}
+.ibtn-add:hover{border-color:var(--v);color:var(--v)}
+.tbar{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:14px}
+.tc{background:white;border:1px solid var(--tb);border-radius:7px;padding:9px 10px;text-align:center}
+.tv{font-size:18px;font-weight:500;color:var(--vd)}.tl{font-size:10px;color:var(--tm);margin-top:1px}
+.alerta{font-size:12px;padding:8px 12px;border-radius:7px;margin-top:8px}
+.ok{background:#E8F5E9;color:#2E7D32}.warn{background:#FFF3E0;color:#E65100}
+.btn-gen{width:100%;margin-top:20px;padding:14px;background:var(--v);color:white;border:none;border-radius:10px;font-size:15px;font-weight:500;font-family:"DM Sans",sans-serif;cursor:pointer;transition:background .18s}
+.btn-gen:hover{background:var(--vd)}
+.btn-gen:disabled{background:#aaa;cursor:not-allowed}
+.res{margin-top:22px;background:var(--card);border:1.5px solid var(--v);border-radius:10px;padding:20px}
+.res-hdr{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px;gap:12px;flex-wrap:wrap}
+.res-title{font-family:"DM Serif Display",serif;font-size:17px;color:var(--vd)}
+.res-sub{font-size:12px;color:var(--tm);margin-top:3px}
+.btn-cop{padding:8px 16px;border:1px solid var(--v);border-radius:7px;background:var(--vl);font-size:13px;font-family:"DM Sans",sans-serif;cursor:pointer;color:var(--vd);font-weight:500;transition:all .18s}
+.btn-cop:hover{background:var(--v);color:white}
+.balance-text{font-size:13.5px;line-height:1.9;color:#1a1a1a;white-space:pre-wrap;font-family:"DM Sans",sans-serif}
+.ldot{display:inline-flex;gap:4px;margin-left:8px}
+.ldot span{width:6px;height:6px;border-radius:50%;background:var(--v);animation:pulse .9s infinite both}
+.ldot span:nth-child(2){animation-delay:.2s}
+.ldot span:nth-child(3){animation-delay:.4s}
+@keyframes pulse{0%,80%,100%{opacity:.2;transform:scale(.8)}40%{opacity:1;transform:scale(1)}}
+
+/* ── ESTILOS GESTOR DE INGREDIENTES ── */
+.gest-section{margin-top:32px;padding-top:24px;border-top:1.5px solid var(--tb)}
+.gest-title{font-family:"DM Serif Display",serif;font-size:20px;color:var(--vd);margin-bottom:4px}
+.gest-sub{font-size:12px;color:var(--tm);margin-bottom:16px}
+.gest-toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;align-items:center}
+.gest-search{flex:1;min-width:180px;padding:8px 12px;border:1px solid var(--tb);border-radius:7px;font-size:13px;font-family:"DM Sans",sans-serif}
+.gest-search:focus{outline:none;border-color:var(--v)}
+.gest-filter{padding:8px 12px;border:1px solid var(--tb);border-radius:7px;font-size:13px;font-family:"DM Sans",sans-serif;background:white;cursor:pointer}
+.gest-filter:focus{outline:none;border-color:var(--v)}
+.btn-export{padding:8px 14px;border:1px solid var(--v);border-radius:7px;background:var(--vl);font-size:12px;font-weight:500;font-family:"DM Sans",sans-serif;cursor:pointer;color:var(--vd);transition:all .18s;display:inline-flex;align-items:center;gap:5px}
+.btn-export:hover{background:var(--v);color:white}
+.btn-export-txt{padding:8px 14px;border:1px solid #0D47A1;border-radius:7px;background:#E3F2FD;font-size:12px;font-weight:500;font-family:"DM Sans",sans-serif;cursor:pointer;color:#0D47A1;transition:all .18s;display:inline-flex;align-items:center;gap:5px}
+.btn-export-txt:hover{background:#0D47A1;color:white}
+.gest-table{width:100%;border-collapse:collapse;font-size:12px;margin-top:6px}
+.gest-table th{background:var(--vd);color:white;padding:8px 10px;text-align:left;font-weight:500;font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+.gest-table td{padding:7px 10px;border-bottom:1px solid #f0f0f0;vertical-align:middle}
+.gest-table tr:hover td{background:var(--vl)}
+.gest-table .cat-badge{background:var(--vl);color:var(--vd);padding:2px 7px;border-radius:8px;font-size:10px;white-space:nowrap}
+.gest-table .num{text-align:right;font-variant-numeric:tabular-nums;color:var(--vd);font-weight:500}
+.gest-table .btn-edit,.gest-table .btn-del{border:none;background:none;cursor:pointer;font-size:13px;padding:2px 5px;border-radius:4px;transition:background .15s}
+.gest-table .btn-edit:hover{background:#E3F2FD}
+.gest-table .btn-del:hover{background:#FFEBEE}
+.gest-count{font-size:11px;color:var(--tm);margin-top:8px;text-align:right}
+
+/* Modal */
+.modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:1000;align-items:center;justify-content:center}
+.modal-bg.show{display:flex}
+.modal{background:white;border-radius:12px;padding:24px;width:90%;max-width:520px;max-height:90vh;overflow-y:auto}
+.modal h3{font-family:"DM Serif Display",serif;font-size:18px;color:var(--vd);margin-bottom:16px}
+.modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.modal label{font-size:11px;color:var(--tm);font-weight:500;text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:3px}
+.modal input,.modal select{width:100%;padding:7px 10px;border:1px solid var(--tb);border-radius:6px;font-size:13px;font-family:"DM Sans",sans-serif}
+.modal input:focus,.modal select:focus{outline:none;border-color:var(--v)}
+.modal-full{grid-column:1/-1}
+.modal-btns{display:flex;gap:8px;justify-content:flex-end;margin-top:16px}
+.btn-cancel{padding:8px 16px;border:1px solid var(--tb);border-radius:7px;background:white;font-size:13px;font-family:"DM Sans",sans-serif;cursor:pointer;color:var(--tm)}
+.btn-save{padding:8px 16px;border:none;border-radius:7px;background:var(--v);font-size:13px;font-weight:500;font-family:"DM Sans",sans-serif;cursor:pointer;color:white}
+.btn-save:hover{background:var(--vd)}
+.modal-msg{font-size:12px;padding:7px 10px;border-radius:6px;margin-top:10px;display:none}
+.modal-msg.ok{background:#E8F5E9;color:#2E7D32;display:block}
+.modal-msg.err{background:#FFEBEE;color:#c62828;display:block}
+
+/* USDA */
+.usda-results{margin-top:10px;border:1px solid var(--tb);border-radius:6px;overflow:hidden;display:none}
+.usda-item{padding:8px 10px;border-bottom:1px solid #f0f0f0;cursor:pointer;font-size:12px;transition:background .15s}
+.usda-item:last-child{border-bottom:none}
+.usda-item:hover{background:var(--vl)}
+.usda-item .usda-name{font-weight:500;color:var(--vd)}
+.usda-item .usda-macros{font-size:11px;color:var(--tm);margin-top:2px}
+.usda-loading{padding:10px;text-align:center;font-size:12px;color:var(--tm)}
+</style>
+</head>
+<body>
+<div class="app">
+
+<div class="hdr">
+  <div class="logo">🌿</div>
+  <div>
+    <h1>Generador de Balance Nutricional</h1>
+    <p id="hdrSub">Armonía y Vitalidad · Cargando ingredientes…</p>
+  </div>
+</div>
+
+<div class="sec">1 · Perfil del libro</div>
+<div class="perfiles" id="perfiles"></div>
+<div class="chips" id="chips"></div>
+
+<div class="sec">2 · Número de día</div>
+<div class="dia-row">
+  <label>Día:</label>
+  <input class="dia-in" id="diaNum" type="number" min="1" max="90" value="1">
+</div>
+
+<div class="sec">3 · Ingredientes — escribe para buscar, selecciona y pon los gramos</div>
+<div class="cgrid" id="cgrid"></div>
+<div id="tbar" class="tbar" style="display:none"></div>
+<div id="alerta" style="display:none"></div>
+<button class="btn-gen" id="btnGen" onclick="generar()">Generar Balance Nutricional con IA →</button>
+
+<div class="res" id="res" style="display:none">
+  <div class="res-hdr">
+    <div>
+      <div class="res-title">Balance Nutricional del Día <span id="diaLabel"></span></div>
+      <div class="res-sub">Listo para copiar a Word</div>
+    </div>
+    <button class="btn-cop" onclick="copiar()">Copiar texto</button>
+  </div>
+  <div class="balance-text" id="balanceText"></div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     GESTOR DE INGREDIENTES
+══════════════════════════════════════════════════════════ -->
+<div class="gest-section" id="gestorSection">
+  <div class="gest-title">Gestor de Ingredientes</div>
+  <div class="gest-sub" id="gestSub">Cargando base de datos…</div>
+
+  <div class="gest-toolbar">
+    <input class="gest-search" id="gestSearch" type="text" placeholder="Buscar ingrediente…" oninput="filtrarTabla()">
+    <select class="gest-filter" id="gestCat" onchange="filtrarTabla()">
+      <option value="">Todas las categorías</option>
+    </select>
+    <button class="btn-export" onclick="exportarExcel()" title="Exportar a Excel">
+      📊 Exportar Excel
+    </button>
+    <button class="btn-export-txt" onclick="exportarTextoAgente()" title="Exportar texto para agente Claude">
+      📋 Exportar para Agente
+    </button>
+    <button class="btn-export" style="background:white;border-color:var(--v)" onclick="abrirModalNuevo()" title="Añadir ingrediente">
+      ＋ Nuevo
+    </button>
+  </div>
+
+  <table class="gest-table" id="gestTable">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Categoría</th>
+        <th style="text-align:right">Prot.</th>
+        <th style="text-align:right">Grasas</th>
+        <th style="text-align:right">CH netos</th>
+        <th>Fuente</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="gestBody"></tbody>
+  </table>
+  <div class="gest-count" id="gestCount"></div>
+</div>
+
+<!-- Modal añadir/editar -->
+<div class="modal-bg" id="modalBg">
+  <div class="modal">
+    <h3 id="modalTitle">Nuevo Ingrediente</h3>
+    <div class="modal-grid">
+      <div class="modal-full">
+        <label>Nombre</label>
+        <input id="mNombre" type="text" placeholder="Nombre del ingrediente">
+      </div>
+      <div class="modal-full">
+        <label>Buscar en USDA (opcional)</label>
+        <div style="display:flex;gap:6px">
+          <input id="usdaQ" type="text" placeholder="Escribe y busca en USDA…" style="flex:1">
+          <button class="btn-save" onclick="buscarUSDA()" style="white-space:nowrap">Buscar</button>
+        </div>
+        <div id="usdaResults" class="usda-results"></div>
+      </div>
+      <div>
+        <label>Proteínas (g/100g)</label>
+        <input id="mP" type="number" step="0.01" min="0" placeholder="0.00">
+      </div>
+      <div>
+        <label>Grasas (g/100g)</label>
+        <input id="mG" type="number" step="0.01" min="0" placeholder="0.00">
+      </div>
+      <div>
+        <label>CH netos (g/100g)</label>
+        <input id="mC" type="number" step="0.01" min="0" placeholder="0.00">
+      </div>
+      <div>
+        <label>Categoría</label>
+        <input id="mT" type="text" placeholder="Ej: Carnicería (Frescos)">
+      </div>
+      <div>
+        <label>Fuente</label>
+        <input id="mFuente" type="text" placeholder="USDA / ANSES-CIQUAL / …">
+      </div>
+      <div>
+        <label>USDA ID</label>
+        <input id="mUsdaId" type="text" placeholder="Ej: 174030">
+      </div>
+      <div class="modal-full">
+        <label>Comentario</label>
+        <input id="mComentario" type="text" placeholder="Notas opcionales">
+      </div>
+    </div>
+    <div id="modalMsg" class="modal-msg"></div>
+    <input type="hidden" id="mNombreOriginal">
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="cerrarModal()">Cancelar</button>
+      <button class="btn-save" onclick="guardarIngrediente()">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<!-- SheetJS para exportar Excel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+<script>
+// ══════════════════════════════════════════════════════════
+// PERFILES
+// ══════════════════════════════════════════════════════════
+const PERFILES={
+  principiantes:{L:"Principiantes",k:1900,g:71,p:22,c:7,d:"Plan de iniciación cetogénica"},
+  mujeres:{L:"Mujeres",k:1700,g:72,p:20,c:8,d:"Adaptado a requerimientos femeninos"},
+  vegano:{L:"Vegano",k:1850,g:68,p:20,c:12,d:"Keto plant-based"},
+  fitness:{L:"Fitness",k:2200,g:65,p:28,c:7,d:"Mayor proteína para entrenamiento"},
+  avanzado:{L:"Avanzado",k:2000,g:75,p:20,c:5,d:"Cetosis estricta, CH mínimos"}
+};
+
+const COMIDAS=[
+  {id:"desayuno",L:"Desayuno",ico:"☕",bg:"#FFF8E1"},
+  {id:"almuerzo",L:"Almuerzo",ico:"🍽️",bg:"#E8F5E9"},
+  {id:"cena",L:"Cena",ico:"🌙",bg:"#EDE7F6"},
+  {id:"aperitivo",L:"Aperitivo",ico:"🫐",bg:"#FBE9E7"}
+];
+
+// Lista de ingredientes — se carga desde el servidor
+let INGS = [];
+
+let perfil="principiantes";
+let data={desayuno:[],almuerzo:[],cena:[],aperitivo:[]};
+
+// ══════════════════════════════════════════════════════════
+// CARGA DE INGREDIENTES DESDE EL SERVIDOR
+// ══════════════════════════════════════════════════════════
+async function cargarIngredientes(){
+  try {
+    const r = await fetch('/api/ingredientes');
+    INGS = await r.json();
+    document.getElementById('hdrSub').textContent =
+      `Armonía y Vitalidad · ${INGS.length} ingredientes · USDA/BEDCA`;
+    renderComidas();
+    cargarGestor();
+  } catch(e){
+    document.getElementById('hdrSub').textContent = 'Error al cargar ingredientes';
+    console.error('Error cargando ingredientes:', e);
+  }
+}
+
+// ══════════════════════════════════════════════════════════
+// GENERADOR DE BALANCE — sin cambios
+// ══════════════════════════════════════════════════════════
+function setPerfil(k){
+  perfil=k;
+  document.querySelectorAll(".pb").forEach(b=>b.classList.toggle("on",b.dataset.k===k));
+  renderChips();recalc();
+}
+
+function renderChips(){
+  const p=PERFILES[perfil];
+  document.getElementById("chips").innerHTML=
+    `<span class="chip ck">Objetivo: ${p.k} kcal</span>`+
+    `<span class="chip cg">Grasas ${p.g}%</span>`+
+    `<span class="chip cp">Proteínas ${p.p}%</span>`+
+    `<span class="chip cc">CH netos ${p.c}%</span>`;
+}
+
+function recalc(){
+  let kc=0,gr=0,pr=0,ch=0,has=false;
+  Object.values(data).forEach(com=>com.forEach(r=>{
+    const ing=INGS.find(i=>i.n===r.n);
+    if(!ing||!r.g)return;has=true;
+    const f=r.g/100;
+    kc+=(ing.g*9+ing.p*4+ing.c*4)*f;
+    gr+=ing.g*f;pr+=ing.p*f;ch+=ing.c*f;
+  }));
+  const tb=document.getElementById("tbar"),al=document.getElementById("alerta");
+  tb.style.display=has?"grid":"none";
+  if(has){
+    tb.innerHTML=
+      `<div class="tc"><div class="tv">${kc.toFixed(2)}</div><div class="tl">kcal totales</div></div>`+
+      `<div class="tc"><div class="tv">${gr.toFixed(2)}g</div><div class="tl">Grasas</div></div>`+
+      `<div class="tc"><div class="tv">${pr.toFixed(2)}g</div><div class="tl">Proteínas</div></div>`+
+      `<div class="tc"><div class="tv">${ch.toFixed(2)}g</div><div class="tl">CH netos</div></div>`;
+    const p=PERFILES[perfil];
+    const gP=kc>0?Math.round(gr*9/kc*100):0;
+    const pP=kc>0?Math.round(pr*4/kc*100):0;
+    const cP=kc>0?Math.round(ch*4/kc*100):0;
+    const ok=Math.abs(gP-p.g)<=5&&Math.abs(pP-p.p)<=5&&Math.abs(cP-p.c)<=4;
+    al.style.display="block";
+    al.className="alerta "+(ok?"ok":"warn");
+    al.textContent=ok
+      ?`✓ Macros dentro del rango ${p.L}: G ${gP}% · P ${pP}% · CH ${cP}%`
+      :`⚠ Macros actuales: G ${gP}% · P ${pP}% · CH ${cP}% — Objetivo: G ${p.g}% · P ${p.p}% · CH ${p.c}%`;
+  }else al.style.display="none";
+}
+
+function makeSearch(comId,idx,selectedName){
+  const wid=`sw_${comId}_${idx}`,did=`sd_${comId}_${idx}`,sid=`ss_${comId}_${idx}`;
+  return `<div class="ing-wrap">
+    <input id="${wid}" class="ing-search" type="text" placeholder="Escribe para buscar..." autocomplete="off"
+      value="${selectedName||''}"
+      oninput="filterIng('${comId}',${idx},this.value)"
+      onfocus="filterIng('${comId}',${idx},this.value)"
+      onblur="setTimeout(()=>hideDD('${did}'),200)">
+    <div id="${did}" class="ing-dropdown"></div>
+    <div id="${sid}" class="ing-selected">${selectedName?"✓ "+selectedName:""}</div>
+  </div>`;
+}
+
+function filterIng(comId,idx,query){
+  const did=`sd_${comId}_${idx}`,dd=document.getElementById(did);
+  if(!query||query.length<1){dd.classList.remove("show");return;}
+  const q=query.toLowerCase();
+  const results=INGS.filter(i=>i.n.toLowerCase().includes(q)).slice(0,12);
+  if(!results.length){dd.classList.remove("show");return;}
+  dd.innerHTML=results.map(i=>
+    `<div class="ing-opt" onmousedown="selectIng('${comId}',${idx},'${i.n.replace(/'/g,"\\'")}')">
+      ${i.n}<span class="cat-label">${i.t}</span>
+    </div>`).join("");
+  dd.classList.add("show");
+}
+
+function hideDD(did){const dd=document.getElementById(did);if(dd)dd.classList.remove("show")}
+
+function selectIng(comId,idx,name){
+  data[comId][idx].n=name;
+  document.getElementById(`sw_${comId}_${idx}`).value=name;
+  document.getElementById(`ss_${comId}_${idx}`).textContent="✓ "+name;
+  document.getElementById(`sd_${comId}_${idx}`).classList.remove("show");
+  recalc();
+}
+
+function renderComidas(){
+  const grid=document.getElementById("cgrid");grid.innerHTML="";
+  COMIDAS.forEach(com=>{
+    const rows=data[com.id];
+    const filled=rows.filter(r=>r.n&&r.g>0);
+    const sum=filled.length>0?filled.length+" ingrediente"+(filled.length>1?"s":"")+" añadido"+(filled.length>1?"s":""):"Sin ingredientes";
+    let rh=rows.map((r,i)=>`
+      <div class="ir">
+        ${makeSearch(com.id,i,r.n)}
+        <input class="ig" type="text" inputmode="decimal" value="${r.g||''}" placeholder="g"
+          onchange="updG('${com.id}',${i},this.value)"
+          oninput="updG('${com.id}',${i},this.value)">
+        <span class="iu">g</span>
+        <button class="ibtn-del" onclick="del('${com.id}',${i})">×</button>
+      </div>`).join("");
+    grid.innerHTML+=`
+      <div class="cc-card">
+        <div class="cc-head">
+          <div class="cc-ico" style="background:${com.bg}">${com.ico}</div>
+          <div><div class="cc-name">${com.L}</div><div class="cc-sum">${sum}</div></div>
+        </div>${rh}
+        <button class="ibtn-add" onclick="add('${com.id}')">+ Añadir ingrediente</button>
+      </div>`;
+  });
+}
+
+function add(com){data[com].push({n:"",g:0});renderComidas();recalc()}
+function del(com,i){data[com].splice(i,1);renderComidas();recalc()}
+function updG(com,i,v){const num=parseFloat(v.replace(",","."));data[com][i].g=isNaN(num)?0:num;recalc()}
+
+function buildResumen(){
+  let lines=[];
+  COMIDAS.forEach(com=>{
+    const items=data[com.id].filter(r=>r.n&&r.g>0);
+    if(!items.length)return;
+    lines.push(`${com.L.toUpperCase()}:`);
+    items.forEach(r=>{
+      const ing=INGS.find(i=>i.n===r.n);
+      if(ing){const f=r.g/100,kc=(ing.g*9+ing.p*4+ing.c*4)*f;
+      lines.push(` • ${r.n}: ${r.g}g (${kc.toFixed(2)} kcal | P:${(ing.p*f).toFixed(2)}g · G:${(ing.g*f).toFixed(2)}g · CH:${(ing.c*f).toFixed(2)}g)`);}
+    });
+  });
+  return lines.join("\n");
+}
+
+function calcT(){
+  let kc=0,gr=0,pr=0,ch=0;
+  Object.values(data).forEach(com=>com.forEach(r=>{
+    const ing=INGS.find(i=>i.n===r.n);
+    if(!ing||!r.g)return;const f=r.g/100;
+    kc+=(ing.g*9+ing.p*4+ing.c*4)*f;gr+=ing.g*f;pr+=ing.p*f;ch+=ing.c*f;
+  }));
+  const gP=kc>0?Math.round(gr*9/kc*100):0,pP=kc>0?Math.round(pr*4/kc*100):0,cP=kc>0?Math.round(ch*4/kc*100):0;
+  return{kc:kc.toFixed(2),gr:gr.toFixed(2),pr:pr.toFixed(2),ch:ch.toFixed(2),gP,pP,cP};
+}
+
+async function generar(){
+  const dia=document.getElementById("diaNum").value||1;
+  const pf=PERFILES[perfil],res=buildResumen(),t=calcT();
+  if(!res.trim()){alert("Añade al menos un ingrediente con gramos.");return;}
+  const btn=document.getElementById("btnGen");
+  btn.disabled=true;btn.textContent="Generando balance…";
+  const resDiv=document.getElementById("res");
+  resDiv.style.display="block";
+  document.getElementById("diaLabel").textContent=dia;
+  document.getElementById("balanceText").innerHTML=`<span style="color:var(--tm)">Analizando ingredientes y redactando</span><span class="ldot"><span></span><span></span><span></span></span>`;
+  resDiv.scrollIntoView({behavior:"smooth",block:"start"});
+  const prompt=`Eres el redactor técnico-nutricional de "Armonía y Vitalidad", marca española de nutrición cetogénica. Genera el BALANCE NUTRICIONAL DEL DÍA ${dia} siguiendo exactamente la estructura y normas editoriales de la marca.
+
+PERFIL: ${pf.L} — ${pf.d}
+MACROS OBJETIVO: ${pf.k} kcal | Grasas ${pf.g}% | Proteínas ${pf.p}% | CH netos ${pf.c}%
+
+INGREDIENTES REALES DEL DÍA ${dia}:
+${res}
+
+TOTALES CALCULADOS:
+${t.kc} kcal | Grasas: ${t.gr}g (${t.gP}%) | Proteínas: ${t.pr}g (${t.pP}%) | CH netos: ${t.ch}g (${t.cP}%)
+
+━━━ ESTRUCTURA OBLIGATORIA ━━━
+
+SECCIÓN 1 — ENFOQUE DEL DÍA
+Párrafo de 3-4 líneas. Lógica nutricional del día, combinación de ingredientes y beneficio principal para el perfil ${pf.L}.
+
+SECCIÓN 2 — ENERGÍA APORTADA POR LOS ALIMENTOS DE HOY
+Una línea: "• Calorías Totales (aprox.): ${t.kc} kcal"
+
+SECCIÓN 3 — MACRONUTRIENTES: LA BASE DE TU SACIEDAD
+• Grasas: ${t.gr}g | ${t.gP}% → fuentes concretas del día → función en cetosis
+• Proteínas: ${t.pr}g | ${t.pP}% → fuentes concretas del día → función
+• Carbohidratos netos: ${t.ch}g | ${t.cP}% → fuentes vegetales concretas → impacto glucémico
+
+SECCIÓN 4 — MICRONUTRIENTES CLAVE: NUTRICIÓN CON PROPÓSITO
+Analiza cada ingrediente usando conocimiento USDA/BEDCA. Extrae TODOS los micronutrientes significativamente presentes. NO uses plantilla fija. Solo incluye subsecciones relevantes: Vitaminas Liposolubles / Vitaminas Hidrosolubles / Macrominerales / Microminerales.
+Para cada micronutriente: nombre completo + fuente específica + función fisiológica (1 línea).
+
+SECCIÓN 5 — EL "PLUS" DE CALIDAD
+• Perfil lipídico con fuentes concretas
+• Fibra vegetal: fuentes y función
+• Compuestos bioactivos presentes en los ingredientes del día
+
+SECCIÓN 6 — CONCLUSIÓN DEL DÍA
+Párrafo de 3-4 líneas. Síntesis metabólica del día para el perfil ${pf.L}.
+
+━━━ NORMAS EDITORIALES ━━━
+• Mayúscula inicial en cada ítem; punto y coma (;) al final; punto (.) al final del último de cada subcategoría
+• Raya (—) para separar datos; guión corto (-) para rangos
+• Anglicismos en cursiva; tono divulgativo riguroso; sin "se estima" ni "podría contener"`;
+  try{
+    const resp=await fetch("/api/generate",{
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({prompt})
+    });
+    const d=await resp.json();
+    if(d.error)document.getElementById("balanceText").textContent="Error: "+d.error;
+    else document.getElementById("balanceText").textContent=d.text||"Sin respuesta.";
+  }catch(e){
+    document.getElementById("balanceText").textContent="Error de conexión.";
+  }
+  btn.disabled=false;btn.textContent="Generar Balance Nutricional con IA →";
+}
+
+function copiar(){
+  navigator.clipboard.writeText(document.getElementById("balanceText").textContent).then(()=>{
+    const b=document.querySelector(".btn-cop");
+    b.textContent="¡Copiado!";setTimeout(()=>b.textContent="Copiar texto",2500);
+  });
+}
+
+const pb=document.getElementById("perfiles");
+Object.entries(PERFILES).forEach(([k,v])=>{
+  const b=document.createElement("button");
+  b.className="pb"+(k==="principiantes"?" on":"");
+  b.dataset.k=k;b.textContent=v.L;b.onclick=()=>setPerfil(k);pb.appendChild(b);
+});
+renderChips();
+
+// ══════════════════════════════════════════════════════════
+// GESTOR DE INGREDIENTES
+// ══════════════════════════════════════════════════════════
+let gestIngsFiltrados = [];
+
+function cargarGestor(){
+  const cats = [...new Set(INGS.map(i=>i.t))].sort((a,b)=>a.localeCompare(b,'es'));
+  const sel = document.getElementById('gestCat');
+  sel.innerHTML = '<option value="">Todas las categorías</option>';
+  cats.forEach(c=>{
+    const o = document.createElement('option');
+    o.value = c; o.textContent = c;
+    sel.appendChild(o);
+  });
+  document.getElementById('gestSub').textContent =
+    `Base de datos Armonía y Vitalidad · ${INGS.length} ingredientes`;
+  filtrarTabla();
+}
+
+function filtrarTabla(){
+  const q = document.getElementById('gestSearch').value.toLowerCase();
+  const cat = document.getElementById('gestCat').value;
+  gestIngsFiltrados = INGS.filter(i=>{
+    const matchQ = !q || i.n.toLowerCase().includes(q);
+    const matchC = !cat || i.t === cat;
+    return matchQ && matchC;
+  });
+  renderTabla();
+}
+
+function renderTabla(){
+  const tbody = document.getElementById('gestBody');
+  tbody.innerHTML = gestIngsFiltrados.map(ing=>`
+    <tr>
+      <td><strong>${ing.n}</strong></td>
+      <td><span class="cat-badge">${ing.t||''}</span></td>
+      <td class="num">${(+ing.p||0).toFixed(2)}</td>
+      <td class="num">${(+ing.g||0).toFixed(2)}</td>
+      <td class="num">${(+ing.c||0).toFixed(2)}</td>
+      <td style="font-size:11px;color:var(--tm)">${ing.fuente||''}</td>
+      <td style="white-space:nowrap">
+        <button class="btn-edit" onclick="abrirModalEditar('${ing.n.replace(/'/g,"\\'")}')">✏️</button>
+        <button class="btn-del" onclick="eliminarIngrediente('${ing.n.replace(/'/g,"\\'")}')">🗑️</button>
+      </td>
+    </tr>`).join('');
+  document.getElementById('gestCount').textContent =
+    `Mostrando ${gestIngsFiltrados.length} de ${INGS.length} ingredientes`;
+}
+
+// ── EXPORTAR EXCEL ────────────────────────────────────────
+function exportarExcel(){
+  if(!INGS.length){alert('No hay ingredientes cargados.');return;}
+
+  const datos = INGS.map(i=>({
+    'Nombre': i.n,
+    'Categoría': i.t || '',
+    'Proteínas (g/100g)': +(+i.p||0).toFixed(2),
+    'Grasas (g/100g)': +(+i.g||0).toFixed(2),
+    'CH netos (g/100g)': +(+i.c||0).toFixed(2),
+    'Fuente': i.fuente || '',
+    'USDA ID': i.usda_id || '',
+    'CIQUAL ID': i.ciqual_id || '',
+    'Comentario': i.comentario || ''
+  }));
+
+  const wb = XLSX.utils.book_new();
+  const ws = XLSX.utils.json_to_sheet(datos);
+
+  // Anchos de columna
+  ws['!cols'] = [
+    {wch:45},{wch:28},{wch:18},{wch:16},{wch:16},{wch:22},{wch:12},{wch:12},{wch:35}
+  ];
+
+  // Estilo cabecera (fila 1)
+  const range = XLSX.utils.decode_range(ws['!ref']);
+  for(let C = range.s.c; C <= range.e.c; C++){
+    const addr = XLSX.utils.encode_cell({r:0, c:C});
+    if(!ws[addr]) continue;
+    ws[addr].s = {
+      font:{bold:true, color:{rgb:'FFFFFF'}},
+      fill:{fgColor:{rgb:'085041'}},
+      alignment:{horizontal:'center'}
+    };
+  }
+
+  XLSX.utils.book_append_sheet(wb, ws, 'Ingredientes AV');
+
+  // Hoja resumen por categorías
+  const cats = {};
+  INGS.forEach(i=>{ cats[i.t] = (cats[i.t]||0)+1; });
+  const resumen = Object.entries(cats).sort((a,b)=>a[0].localeCompare(b[0],'es'))
+    .map(([cat,n])=>({'Categoría':cat,'Nº ingredientes':n}));
+  resumen.push({'Categoría':'TOTAL','Nº ingredientes':INGS.length});
+  const ws2 = XLSX.utils.json_to_sheet(resumen);
+  ws2['!cols'] = [{wch:35},{wch:18}];
+  XLSX.utils.book_append_sheet(wb, ws2, 'Resumen categorías');
+
+  const fecha = new Date().toISOString().slice(0,10);
+  XLSX.writeFile(wb, `Ingredientes_AV_${fecha}.xlsx`);
+}
+
+// ── EXPORTAR TEXTO PARA AGENTE CLAUDE ────────────────────
+function exportarTextoAgente(){
+  if(!INGS.length){alert('No hay ingredientes cargados.');return;}
+
+  // Agrupar por categoría manteniendo el orden del JSON
+  const grupos = {};
+  INGS.forEach(i=>{
+    const cat = i.t || 'Sin categoría';
+    if(!grupos[cat]) grupos[cat] = [];
+    grupos[cat].push(i);
+  });
+
+  const fmt = n => {
+    const num = parseFloat(n)||0;
+    return num.toFixed(2).replace('.',',');
+  };
+
+  let lines = [];
+  Object.entries(grupos).forEach(([cat, ings])=>{
+    // Categoría en mayúsculas
+    lines.push(cat.toUpperCase());
+    ings.forEach(i=>{
+      lines.push(`${i.n} | P: ${fmt(i.p)} | G: ${fmt(i.g)} | C: ${fmt(i.c)}`);
+    });
+    lines.push(''); // línea en blanco entre categorías
+  });
+
+  // Pie de página
+  const meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio',
+                  'Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+  const hoy = new Date();
+  const pie = `BASE DE DATOS ARMONÍA Y VITALIDAD · ${INGS.length} ingredientes · ${meses[hoy.getMonth()]} ${hoy.getFullYear()}`;
+  lines.push(pie);
+
+  const texto = lines.join('\n');
+
+  // Descargar como .txt
+  const blob = new Blob([texto], {type:'text/plain;charset=utf-8'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  const fecha = new Date().toISOString().slice(0,10);
+  a.download = `BD_AV_Agente_${fecha}.txt`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// ── MODAL AÑADIR / EDITAR ─────────────────────────────────
+function abrirModalNuevo(){
+  document.getElementById('modalTitle').textContent = 'Nuevo Ingrediente';
+  document.getElementById('mNombre').value='';
+  document.getElementById('mP').value='';
+  document.getElementById('mG').value='';
+  document.getElementById('mC').value='';
+  document.getElementById('mT').value='';
+  document.getElementById('mFuente').value='';
+  document.getElementById('mUsdaId').value='';
+  document.getElementById('mComentario').value='';
+  document.getElementById('mNombreOriginal').value='';
+  document.getElementById('usdaQ').value='';
+  document.getElementById('usdaResults').style.display='none';
+  document.getElementById('modalMsg').className='modal-msg';
+  document.getElementById('modalMsg').textContent='';
+  document.getElementById('modalBg').classList.add('show');
+}
+
+function abrirModalEditar(nombre){
+  const ing = INGS.find(i=>i.n===nombre);
+  if(!ing) return;
+  document.getElementById('modalTitle').textContent = 'Editar Ingrediente';
+  document.getElementById('mNombre').value = ing.n;
+  document.getElementById('mP').value = ing.p||0;
+  document.getElementById('mG').value = ing.g||0;
+  document.getElementById('mC').value = ing.c||0;
+  document.getElementById('mT').value = ing.t||'';
+  document.getElementById('mFuente').value = ing.fuente||'';
+  document.getElementById('mUsdaId').value = ing.usda_id||'';
+  document.getElementById('mComentario').value = ing.comentario||'';
+  document.getElementById('mNombreOriginal').value = ing.n;
+  document.getElementById('usdaQ').value='';
+  document.getElementById('usdaResults').style.display='none';
+  document.getElementById('modalMsg').className='modal-msg';
+  document.getElementById('modalMsg').textContent='';
+  document.getElementById('modalBg').classList.add('show');
+}
+
+function cerrarModal(){
+  document.getElementById('modalBg').classList.remove('show');
+}
+
+async function guardarIngrediente(){
+  const nombreOriginal = document.getElementById('mNombreOriginal').value;
+  const esNuevo = !nombreOriginal;
+  const payload = {
+    nombre_original: nombreOriginal,
+    n: document.getElementById('mNombre').value.trim(),
+    p: document.getElementById('mP').value,
+    g: document.getElementById('mG').value,
+    c: document.getElementById('mC').value,
+    t: document.getElementById('mT').value.trim(),
+    fuente: document.getElementById('mFuente').value.trim(),
+    usda_id: document.getElementById('mUsdaId').value.trim(),
+    comentario: document.getElementById('mComentario').value.trim()
+  };
+  if(!payload.n){mostrarMsgModal('El nombre es obligatorio.','err');return;}
+  const url = esNuevo ? '/api/ingredientes/add' : '/api/ingredientes/edit';
+  try{
+    const r = await fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+    const d = await r.json();
+    if(d.error){mostrarMsgModal(d.error,'err');return;}
+    mostrarMsgModal(esNuevo?'Ingrediente añadido correctamente.':'Ingrediente actualizado.','ok');
+    await cargarIngredientes();
+    setTimeout(cerrarModal, 1200);
+  }catch(e){mostrarMsgModal('Error de conexión.','err');}
+}
+
+async function eliminarIngrediente(nombre){
+  if(!confirm(`¿Eliminar "${nombre}"? Esta acción no se puede deshacer.`)) return;
+  try{
+    const r = await fetch('/api/ingredientes/delete',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({n:nombre})});
+    const d = await r.json();
+    if(d.error){alert('Error: '+d.error);return;}
+    await cargarIngredientes();
+  }catch(e){alert('Error de conexión.');}
+}
+
+function mostrarMsgModal(txt,tipo){
+  const m = document.getElementById('modalMsg');
+  m.textContent = txt;
+  m.className = 'modal-msg '+tipo;
+}
+
+// ── BÚSQUEDA USDA ─────────────────────────────────────────
+async function buscarUSDA(){
+  const q = document.getElementById('usdaQ').value.trim();
+  if(!q) return;
+  const div = document.getElementById('usdaResults');
+  div.style.display='block';
+  div.innerHTML='<div class="usda-loading">Buscando en USDA…</div>';
+  try{
+    const r = await fetch('/api/usda/search?q='+encodeURIComponent(q));
+    const d = await r.json();
+    if(!d.results||!d.results.length){div.innerHTML='<div class="usda-loading">Sin resultados.</div>';return;}
+    div.innerHTML = d.results.map(x=>`
+      <div class="usda-item" onclick="usdarSeleccionar(${JSON.stringify(x).replace(/"/g,'&quot;')})">
+        <div class="usda-name">${x.n}</div>
+        <div class="usda-macros">P: ${x.p}g · G: ${x.g}g · CH: ${x.c}g &nbsp;·&nbsp; ID: ${x.usda_id}</div>
+      </div>`).join('');
+  }catch(e){div.innerHTML='<div class="usda-loading">Error de búsqueda.</div>';}
+}
+
+function usdarSeleccionar(x){
+  document.getElementById('mNombre').value = x.n;
+  document.getElementById('mP').value = x.p;
+  document.getElementById('mG').value = x.g;
+  document.getElementById('mC').value = x.c;
+  document.getElementById('mFuente').value = 'USDA';
+  document.getElementById('mUsdaId').value = x.usda_id;
+  document.getElementById('usdaResults').style.display='none';
+}
+
+// ══════════════════════════════════════════════════════════
+// ARRANQUE
+// ══════════════════════════════════════════════════════════
+cargarIngredientes();
+</script>
+</body>
+</html>
